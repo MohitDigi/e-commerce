@@ -1,0 +1,99 @@
+.row{
+    display: flex;
+    color: #253D4E;
+    flex-wrap: wrap;
+}
+.col {
+    flex: 1 0 0%;
+}
+.logo{
+    margin-bottom: 30px;
+}
+.logo a {
+    display: block;
+}
+.logo a img{
+    margin-bottom: 10px;
+}
+
+.section-padding {
+    padding: 25px 0;
+}
+.footer-list {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    min-width: 170px;
+}
+.text-heading{
+    font-size: 17px;
+}
+.widget-about {
+    min-width: 300px;
+    font-size: 15px;
+}
+.contact-info {
+    font-size: 15px;
+    color: #253D4E;
+    margin-right: 8px;
+    line-height: 20px;
+}
+.footer-list li a {
+    font-size: 15px;
+    color: #253D4E;
+    display: block;
+}
+a, button {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-mid .widget-title {
+    margin: 15px 0 20px 0;
+}
+.footer-link-widget:not(:last-child) {
+    margin-right: 50px;
+}
+.footer-link-widget{
+   line-height: 28px;
+}
+h4 {
+    font-size: 24px;
+}
+.text-brand,.hotline{
+    color: #3BB77E;
+}
+.hotline-container,.hotline{
+    display: flex;
+}
+.hotline img{
+    min-width: 10px;
+    margin-right: 12px;
+    max-width: 30px;
+    opacity: 0.5;
+}
+.hotline p span {
+    font-weight: 500;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #7E7E7E;
+    display: block;
+    letter-spacing: 0.9px;
+}
+.hotline {
+    min-width: 200px;
+}
+.widget-about {
+    min-width: 300px;
+    font-size: 15px;
+}
+.download-app a img {
+    max-width: 128px;
+}
+.widget-install-app {
+    min-width: 310px;
+}
+hr {
+    border-top: 2px solid #BCE3C9;
+    margin-bottom: 30px;
+}

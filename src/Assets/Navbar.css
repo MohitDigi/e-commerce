@@ -1,0 +1,16 @@
+.browser-btn{
+    background: #3BB77E;
+    border: #3BB77E;
+    border-radius: 5px;
+    line-height: 44px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+}
+.browser-btn{
+    color:white;
+}
+.browser-btn img{
+ width: 25px;
+}
