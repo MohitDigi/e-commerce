@@ -43,6 +43,9 @@
     color: #253D4E;
     display: block;
 }
+.footer-list li a:hover {
+    color: #3BB77E;
+}
 a, button {
     text-decoration: none;
     cursor: pointer;

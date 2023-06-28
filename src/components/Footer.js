@@ -58,7 +58,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div class="footer-link-widget col wow animate__ animate__fadeInUp animated">
+            <div class="footer-link-widget col wow animate__animated animate__fadeInUp">
               <h4 class=" widget-title">Company</h4>
               <ul class="footer-list">
                 <li>
@@ -85,8 +85,7 @@ const Footer = () => {
               </ul>
             </div>
             <div
-              class="footer-link-widget col wow animate__animated animate__fadeInUp"
-              data-wow-delay=".2s"
+              class="footer-link-widget col wow animate__animated animate__fadeInUp "
             >
               <h4 class="widget-title">Account</h4>
               <ul class="footer-list ">
