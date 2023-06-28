@@ -68,6 +68,9 @@ h4 {
 }
 .hotline-container,.hotline{
     display: flex;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 4px 0;
 }
 .hotline img{
     min-width: 10px;

@@ -1,4 +1,3 @@
-import Dropdown from './components/Dropdown';
 import 'animate.css';
 import "./App.css";
 import Footer from './components/Footer';

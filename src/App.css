@@ -6,6 +6,8 @@
 }
 .main{
  height:70vh;
+ background: rgb(250, 250, 250);
+ margin: 25px 0;
 }
 .footer{
  height: 30vh;
