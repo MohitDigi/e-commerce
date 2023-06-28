@@ -1,15 +1,32 @@
-import 'animate.css';
+import "animate.css";
 import "./App.css";
-import Footer from './components/Footer';
-import Navbar from './components/Navbar';
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
+import TopHeader from "./components/TopHeader";
+import MiddleBanner from "./components/MiddleBanner";
 function App() {
   return (
     <div className="App">
-      <divc className="header"> <Navbar/></divc>
-      <div className='main'>
+      <div>
+        <TopHeader />
       </div>
-      <div className='footer'>   
-      <Footer/></div>
+      <div className="header">
+        <Navbar />
+      </div>
+      <div className="main">
+        <div>
+          <Slider />
+        </div>
+      </div>
+      <div className="footer">
+        <div>
+          <MiddleBanner />
+        </div>
+        <div>
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }

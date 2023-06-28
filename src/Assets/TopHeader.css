@@ -1,0 +1,10 @@
+
+#news-flash{
+    overflow: hidden; position: relative; height: 14px;
+}
+#news-flash ul{
+    position: absolute; margin: 0px; padding: 0px; top: 0px;
+}
+#news-flash ul li{
+    margin: 0px; padding: 0px; height: 14px; opacity: 9.35132e-07;
+}

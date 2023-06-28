@@ -12,7 +12,7 @@ const Footer = () => {
   return (
     <>
       <section class="section-padding footer-mid">
-        <div class="container">
+        <div class="">
           <div class="row">
             <div class="col">
               <div
@@ -191,25 +191,25 @@ const Footer = () => {
         </div>
       </section>
       <hr />
-      <div class="container animate__animated animate__fadeInUp" data-wow-delay="0">
-            <div class="row">
+      <div class=" pb-30 wow animate__animated animate__fadeInUp" data-wow-delay="0">
+            <div class="row align-items-center">
                 <div class="">
                     <div class="footer-bottom"></div>
                 </div>
                 <div class="col">
                     <p>&copy; 2022, <strong class="text-brand">Nest</strong> - HTML Ecommerce Template <br />All rights reserved</p>
                 </div>
-                <div class="col hotline-container">
-                    <div class="hotline ">
+                <div class="col text-center d-none d-xl-block">
+                    <div class="hotline d-lg-inline-flex mr-30">
                         <img src={phoneIcon} alt="hotline" />
                         <p>1900 - 6666<span>Working 8:00 - 22:00</span></p>
                     </div>
-                    <div class="hotline">
+                    <div class="hotline d-lg-inline-flex">
                         <img src={phoneIcon} alt="hotline" />
                         <p>1900 - 8888<span>24/7 Support Center</span></p>
                     </div>
                 </div>
-                <div>
+                <div class="col text-end d-none d-md-block">
                     <div class="mobile-social-icon">
                         <h6>Follow Us</h6>
                         <a href="#"><img src="" alt="" /></a>
