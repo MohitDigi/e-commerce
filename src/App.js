@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import TopHeader from "./components/TopHeader";
 import MiddleBanner from "./components/MiddleBanner";
+import Cart from "./components/Cart";
 function App() {
   return (
     <div className="App">
@@ -19,6 +20,9 @@ function App() {
       <main className="main">
         <div className="slider">
           <Slider />
+        </div>
+        <div className="card">
+          <Cart/>
         </div>
       </main>
       <footer className="footer">
