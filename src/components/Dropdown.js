@@ -5,9 +5,8 @@ const Dropdown = () => {
   return (
     <>
       <div className="main-container">
-        {/*list container*/}
-        <ul className="list-container">
-          <li className="left-list">
+        <div className="list-container">
+          
             <ul className="list">
               <li>Milk and Dairies</li>
               <li>Clothing & Beauty</li>
@@ -15,8 +14,8 @@ const Dropdown = () => {
               <li>Baking Materials</li>
               <li>Fresh Fruits</li>
             </ul>
-          </li>
-          <li className="right-list">
+         
+          
             <ul className="list">
               <li>Wines & Drinks</li>
               <li>Fresh Seafoods</li>
@@ -24,9 +23,9 @@ const Dropdown = () => {
               <li>Vegetables</li>
               <li>Bread & Juice</li>
             </ul>
-          </li>
+       
           {/* plus icon */}
-        </ul>
+        </div>
         <div className="plus-icon">
           <img src={plusIcon} alt="plus" />
           Show More...

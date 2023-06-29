@@ -190,7 +190,6 @@ const Footer = () => {
           </div>
         </div>
       </section>
-      <hr />
       <div class=" pb-30 wow animate__animated animate__fadeInUp" data-wow-delay="0">
             <div class="row align-items-center">
                 <div class="">

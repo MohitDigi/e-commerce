@@ -6,19 +6,23 @@ import Slider from "./components/Slider";
 import TopHeader from "./components/TopHeader";
 import MiddleBanner from "./components/MiddleBanner";
 import Cart from "./components/Cart";
+import LogoHeader from "./components/LogoHeader";
 function App() {
   return (
     <div className="App">
       <header>
-        <div>
+        <div className="head">
           <TopHeader />
+        </div>
+        <div>
+          <LogoHeader/>
         </div>
         <div>
           <Navbar />
         </div>
       </header>
-      <main className="main">
-        <div className="slider">
+      <main className="main my-4">
+        <div className="slider my-4">
           <Slider />
         </div>
         <div className="card">

@@ -1,4 +1,10 @@
 
 .cart-items{
     display: flex;
+    overflow-x: auto;
+   
+    gap: 8px;
+}
+.cart-items::-webkit-scrollbar{
+    width: 0;
 }

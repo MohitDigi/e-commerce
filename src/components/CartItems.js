@@ -1,18 +1,18 @@
 import React from "react";
+import cartImage from "../image/cat-11.png"
 
 const CartItems = () => {
   return (
     <>
-      <div class="card" style={{width: "18rem"}}>
-        <img src="..." class="card-img-top" alt="..." />
+      <div class="card" >
+        <img src={cartImage} class="card-img-top" alt="..." />
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
+          <h5 class="card-title">Peach</h5>
           <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            14 items
           </p>
-          <a href="#" class="btn btn-primary">
-            Go somewhere
+          <a href="#" class="btn btn-success">
+            Add to cart
           </a>
         </div>
       </div>

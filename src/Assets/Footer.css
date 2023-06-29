@@ -6,12 +6,7 @@
 .col {
     flex: 1 0 0%;
 }
-.logo{
-    margin-bottom: 30px;
-}
-.logo a {
-    display: block;
-}
+
 .logo a img{
     margin-bottom: 10px;
 }
@@ -97,7 +92,7 @@ h4 {
 .widget-install-app {
     min-width: 310px;
 }
-hr {
+.footer-bottom {
     border-top: 2px solid #BCE3C9;
     margin-bottom: 30px;
 }
