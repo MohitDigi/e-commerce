@@ -20,8 +20,8 @@ const MiddleBanner = () => {
                     <span class="text-brand">Nest Mart</span>
                   </p>
                   <form class="form-subcriber d-flex ">
-                    <input type="email" placeholder="Your emaill address" />
-                    <button class="btn" type="submit">
+                    <input className="border-0 rounded-start-pill" type="email" placeholder="Your emaill address" />
+                    <button class="btn btn-success rounded-end-pill border-0" type="submit">
                       Subscribe
                     </button>
                   </form>

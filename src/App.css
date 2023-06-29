@@ -1,14 +1,15 @@
 .App{
-    padding: 40px;
+    max-width: 90vw;
+    margin: auto;
 }
 .header{
  height:10vh;
 }
 .main{
- height:70vh;
+ /* height:70vh; */
  background: rgb(250, 250, 250);
  margin: 25px 0;
 }
-.footer{
+/* .footer{
  height: 30vh;
-}
+} */

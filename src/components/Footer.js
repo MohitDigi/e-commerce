@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
             <div class="footer-link-widget col wow animate__animated animate__fadeInUp">
               <h4 class=" widget-title">Company</h4>
-              <ul class="footer-list">
+              <ul class="footer-list ">
                 <li>
                   <a href="#">About Us</a>
                 </li>

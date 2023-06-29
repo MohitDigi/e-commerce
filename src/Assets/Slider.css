@@ -1,0 +1,31 @@
+
+.custom {
+  font-family: "Quicksand";
+  text-align: left;
+}
+
+.custom h1 {
+    font-family: "Quicksand", sans-serif;
+    color: #253d4e;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.custom p {
+  font-size: 30px;
+}
+
+.news-form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.news-form input {
+  padding: 20px 20px;
+  width: 300px;
+}
+
+.news-form button {
+  width: 150px;
+  background-color: #3bb77e;
+}

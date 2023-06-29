@@ -8,25 +8,27 @@ import MiddleBanner from "./components/MiddleBanner";
 function App() {
   return (
     <div className="App">
-      <div>
-        <TopHeader />
-      </div>
-      <div className="header">
-        <Navbar />
-      </div>
-      <div className="main">
+      <header>
         <div>
+          <TopHeader />
+        </div>
+        <div>
+          <Navbar />
+        </div>
+      </header>
+      <main className="main">
+        <div className="slider">
           <Slider />
         </div>
-      </div>
-      <div className="footer">
+      </main>
+      <footer className="footer">
         <div>
           <MiddleBanner />
         </div>
         <div>
           <Footer />
         </div>
-      </div>
+      </footer>
     </div>
   );
 }
