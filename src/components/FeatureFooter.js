@@ -5,6 +5,7 @@ import icon2 from "../icon/icon-2.svg"
 import icon3 from "../icon/icon-3.svg"
 import icon4 from "../icon/icon-4.svg"
 import icon5 from "../icon/icon-5.svg"
+import icon6 from "../icon/icon-6.svg"
 
 const FeatureFooter = () => {
   return (
@@ -70,7 +71,7 @@ const FeatureFooter = () => {
                     <div class="col-lg-1-5 col-md-4 col-12 col-sm-6 d-xl-none">
                         <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                             <div class="banner-icon">
-                                <img src="assets/imgs/theme/icons/icon-6.svg" alt="" />
+                                <img src={icon6} alt="" />
                             </div>
                             <div class="banner-text">
                                 <h3 class="icon-box-title">Safe delivery</h3>
