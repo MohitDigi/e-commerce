@@ -7,6 +7,7 @@ import TopHeader from "./components/TopHeader";
 import MiddleBanner from "./components/MiddleBanner";
 import Cart from "./components/Cart";
 import LogoHeader from "./components/LogoHeader";
+import FeatureFooter from "./components/FeatureFooter";
 function App() {
   return (
     <div className="App">
@@ -32,6 +33,9 @@ function App() {
       <footer className="footer">
         <div>
           <MiddleBanner />
+        </div>
+        <div>
+          <FeatureFooter/>
         </div>
         <div>
           <Footer />

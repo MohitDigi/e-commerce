@@ -74,6 +74,30 @@ a, button {
     max-width: unset;
     min-width: 150px;
 }
+.header-action-2 .header-action-icon-2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 10px;
+}
+.header-style-1 .search-location .select2-container {
+    max-width: unset;
+    min-width: 158px;
+    max-width: 158px;
+    margin-right: 30px;
+}
+.header-action-2 .header-action-icon-2 > a {
+    font-size: 30px;
+    color: #333;
+    line-height: 1;
+    display: inline-block;
+    position: relative;
+}
+.header-action-2 .header-action-icon-2 > a span {
+    font-size: 14px;
+    color: #7E7E7E;
+}
 .header-style-1 .select2-container--default .select2-selection--single .select2-selection__rendered {
     height: 50px;
     line-height: 50px;

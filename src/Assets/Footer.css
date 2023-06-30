@@ -70,8 +70,9 @@ h4 {
     margin-right: 12px;
     max-width: 30px;
     opacity: 0.5;
+    color: #253D4E;
 }
-.hotline p span {
+.hotline >p span {
     font-weight: 500;
     font-size: 12px;
     font-family: "Lato", sans-serif;
@@ -95,4 +96,8 @@ h4 {
 .footer-bottom {
     border-top: 2px solid #BCE3C9;
     margin-bottom: 30px;
+}
+.hotline > p{
+    text-align: left;
+    margin-bottom: 0;
 }
