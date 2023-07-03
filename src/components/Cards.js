@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "../Assets/Cards.css";
+import leftarrowIcon from "../icon/left-arrow.png"
+import rightarrowIcon from "../icon/right-arrow.png"
 
 const Cards = () => {
   const [data, setData] = useState([]);
@@ -86,10 +88,10 @@ const Cards = () => {
             </div>
             <div className="controls custom-btn-ctrl">
             <button onClick={sliderRef?.slickPrev}>
-              <img src="" alt="left" />
+              <img src={leftarrowIcon} alt="left" />
             </button>
             <button onClick={sliderRef?.slickNext}>
-              <img src="" alt="right-arrow" />
+              <img src={rightarrowIcon} alt="right-arrow" />
             </button>
             </div>
           </div>
