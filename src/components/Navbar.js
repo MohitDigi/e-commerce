@@ -15,6 +15,8 @@ const Navbar = () => {
             <button
               className="browser-btn"
               onClick={() => setFlag(true)}
+              onBlur={() => setFlag(false)}
+              onMouseOver={() => setFlag(false)}
             >
               <img src={browseIcon} />
               Browse All Categories
