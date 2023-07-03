@@ -5,8 +5,15 @@ import appStore from "../icon/app-store.jpg"
 import playStore from "../icon/google-play.jpg"
 import paymentIcon from "../icon/payment-method.png"
 import phoneIcon from "../icon/phone-call.svg"
-// import appStore from "../icon/app-store.jpg"
-// import appStore from "../icon/app-store.jpg"
+import contactIcon from "../icon/icon-location.svg"
+import callIcon from "../icon/icon-contact.svg"
+import emailIcon from "../icon/icon-email-2.svg"
+import clockIcon from "../icon/icon-clock.svg"
+import fb from "../icon/icon-facebook-white.svg"
+import tweet from "../icon/icon-twitter-white.svg"
+import pt from "../icon/icon-pinterest-white.svg"
+import ig from "../icon/icon-instagram-white.svg"
+import yt from "../icon/icon-youtube-white.svg"
 
 const Footer = () => {
   return (
@@ -29,20 +36,20 @@ const Footer = () => {
                 </div>
                 <ul class="contact-info">
                   <li>
-                    <img src="" alt="" />
-                    <strong>Address: </strong>{" "}
+                    <img src={contactIcon} alt="" />
+                    <strong>Address: </strong>
                     <span>
                       5171 W Campbell Ave, Utah 53127 United
                       States
                     </span>
                   </li>
                   <li>
-                    <img src="" alt="" />
+                    <img src={callIcon} alt="" />
                     <strong>Call Us:</strong>
                     <span>(+91) - 540-025-124553</span>
                   </li>
                   <li>
-                    <img src="" alt="" />
+                    <img src={emailIcon} alt="" />
                     <strong>Email:</strong>
                     <span>
                       <a href="" class="__email__">
@@ -51,7 +58,7 @@ const Footer = () => {
                     </span>
                   </li>
                   <li>
-                    <img src="" alt="" />
+                    <img src={clockIcon} alt="" />
                     <strong>Hours:</strong>
                     <span>10:00 - 18:00, Mon - Sat</span>
                   </li>
@@ -211,11 +218,11 @@ const Footer = () => {
                 <div class="col text-end d-none d-md-block">
                     <div class="mobile-social-icon">
                         <h6>Follow Us</h6>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
-                        <a href="#"><img src="" alt="" /></a>
+                        <a href="#"><img src={fb} alt="" /></a>
+                        <a href="#"><img src={pt} alt="" /></a>
+                        <a href="#"><img src={tweet} alt="" /></a>
+                        <a href="#"><img src={ig} alt="" /></a>
+                        <a href="#"><img src={yt} alt="" /></a>
                     </div>
                     <p class="font-sm">Up to 15% discount on your first subscribe</p>
                 </div>

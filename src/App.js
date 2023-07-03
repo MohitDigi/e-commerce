@@ -8,6 +8,8 @@ import MiddleBanner from "./components/MiddleBanner";
 import Cart from "./components/Cart";
 import LogoHeader from "./components/LogoHeader";
 import FeatureFooter from "./components/FeatureFooter";
+import Cards from "./components/Cards";
+import SubCards from "./components/SubCards";
 function App() {
   return (
     <div className="App">
@@ -16,7 +18,7 @@ function App() {
           <TopHeader />
         </div>
         <div>
-          <LogoHeader/>
+          <LogoHeader />
         </div>
         <div>
           <Navbar />
@@ -26,8 +28,11 @@ function App() {
         <div className="slider my-4">
           <Slider />
         </div>
-        <div className="card">
-          <Cart/>
+        <div>
+          <Cards />
+        </div>
+        <div>
+          <SubCards />
         </div>
       </main>
       <footer className="footer">
@@ -35,7 +40,7 @@ function App() {
           <MiddleBanner />
         </div>
         <div>
-          <FeatureFooter/>
+          <FeatureFooter />
         </div>
         <div>
           <Footer />

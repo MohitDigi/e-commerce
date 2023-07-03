@@ -1,10 +1,16 @@
 import React from "react";
 import "../Assets/TopHeader.css";
+import frIcon from "../icon/flag-fr.png"
+import dtIcon from "../icon/flag-dt.png"
+import ruIcon from "../icon/flag-ru.png"
 const TopHeader = () => {
   return (
     <>
-      <div className="row align-item-center top-header">
-        <ul className="nav nav-pills col-xl-4 col-lg-4">
+      <div className="row align-item-center top-header ">
+      <div className="header-info w-auto">
+        <ul className="nav nav-pills">
+         
+
           <li className="nav-item">
             <a className="nav-link" href="/">
               About Us
@@ -29,7 +35,8 @@ const TopHeader = () => {
           </li>
         </ul>
 
-        <div className="nav align-item-center col-xl-5 col-lg-4">
+          </div>
+        <div className="nav align-item-center w-auto">
           <li className="nav-item" id="banner">
             <a className="nav-link" href="/">
             100% Secure delivery without contacting the courier
@@ -37,7 +44,7 @@ const TopHeader = () => {
           </li>
         </div>
 
-        <ul className="nav nav-pills col-xl-3 col-lg-4">
+        <ul className="nav nav-pills w-auto">
           <li className="nav-item">
             <a className="nav-link d-flex" href="/">
               {" "}
@@ -59,21 +66,21 @@ const TopHeader = () => {
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-fr" />
+                  <img src={frIcon} alt="flag-fr" />
                   Francias
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-dt" />
+                  <img src={dtIcon} alt="flag-dt" />
                   Deutchs
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-ru" />
+                  <img src={ruIcon} alt="flag-ru" />
                   Pусский
                 </a>
               </li>
@@ -94,21 +101,21 @@ const TopHeader = () => {
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-fr" />
+                  <img src={frIcon} alt="flag-fr" />
                   INR
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-dt" />
+                  <img src={dtIcon} alt="flag-dt" />
                   MBP
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src="" alt="flag-ru" />
+                  <img src={ruIcon} alt="flag-ru" />
                   EU
                 </a>
               </li>

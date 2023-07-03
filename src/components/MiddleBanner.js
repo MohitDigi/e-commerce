@@ -8,7 +8,7 @@ const MiddleBanner = () => {
       <section class="newsletter mb-15 wow animate__animated animate__fadeIn">
         <div class="">
           <div class="row">
-            <div class="col-lg-12 ">
+            <div class="col ">
               <div class="position-relative newsletter-inner d-flex flex-wrap justify-content-around">
                 <div class="newsletter-content ">
                   <h2 class="mb-20">

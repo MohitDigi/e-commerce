@@ -9,7 +9,7 @@
     border: 1px solid #BCE3C9;
     border-radius: 10px;
     font-size: 16px;
-    min-width: 270px;
+    /* min-width: 300px; */
     z-index: 100;
 }
 .list-container{
@@ -19,11 +19,12 @@
     /* border: 2px solid red; */
 }
 .list-container ul li{
-    text-align: center;
+    /* text-align: center; */
     line-height: 48px;
     border-radius: 5px;
     border: 1px solid #F2F3F4;
-    padding: 0px 12px;
+    padding: 4px 12px;
+    margin: 10px 0px;
     /* margin: 0 9px 9px 0; */
     /* height: 50px; */
 }
@@ -31,6 +32,16 @@
 .list li:hover{
     color: #3BB77E;
     border: 1px solid #3BB77E;
+}
+
+.list ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.list > li >img{
+    width: 30px;
+    margin-right: 8px;
 }
 .plus-icon{
     display: flex;
