@@ -15,11 +15,11 @@
   display: inline;
 }
 
-.container {
+.card-container {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  margin: 50px 0px;
+  margin-top: 20px;
 }
 
 .col {
@@ -47,7 +47,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 300px;
   flex-wrap: wrap;
   border: 1px solid #ececec;
   border-radius: 15px;
@@ -120,44 +119,34 @@
 
 .custom-banners h4 {
   font-weight: 700;
-
   margin-bottom: 15px;
-
-  min-height: 100px;
-
-  /* width: 210px; */
-
+  
   font-size: 24px;
-
   color: #253d4e !important;
 }
 
 .banner-container {
   display: flex;
-
-  justify-content: space-between;
-
   flex-wrap: wrap;
+}
+
+.banner-img img {
+  width: auto;
+  max-width: 400px;
 }
 
 .card-img-overlay {
   top: 20%;
 
   left: 10%;
+  align-items: center;
 }
 
 .custom-banners {
   display: flex;
-
-  margin-right: 230px;
-
-  margin-bottom: 50px;
-
-  /* left: 50px; */
+  margin: 12px;
 }
 
-.custom-banners .card-img {
-  width: 500px;
-
-  height: 300px;
-}
+/* .custom-banners .card-img {
+ 
+} */

@@ -1,5 +1,5 @@
 import React from "react";
-import "../Assets/Slider.css"
+import "../Assets/Slider.css";
 import sliderImage from "../image/Slider-1.png";
 import sliderImage2 from "../image/Slider-2.png";
 
@@ -25,9 +25,9 @@ const Slider = () => {
           ></button>
         </div>
 
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src={sliderImage} class="d-block w-100 rounded-5" alt="slider1" />
+        <div class="carousel-inner ">
+          <div class="carousel-item active ">
+            <img src={sliderImage} class="w-100 rounded-5" alt="slider1" />
 
             <div className="carousel-caption text-black custom ">
               <h1 className="display-2 ">
@@ -56,7 +56,11 @@ const Slider = () => {
           </div>
 
           <div class="carousel-item">
-            <img src={sliderImage2} class="d-block w-100 rounded-5" alt="slider2" />
+            <img
+              src={sliderImage2}
+              class="d-block w-100 rounded-5"
+              alt="slider2"
+            />
 
             <div className="carousel-caption text-black custom">
               <h1 class="display-2">

@@ -31,11 +31,12 @@
 }
 
 .title .nav-link {
-    margin-top: 6px;
+    /* margin-top: 6px; */
     background: none;
     font-size: 16px;
     color: #253D4E;
     font-weight: 700;
+    align-items: flex-end;
 }
 
 .title .nav-link:hover {
@@ -50,4 +51,12 @@
 
 .slick-list {
   height: 250px;
+}
+.slick-slide img {
+  margin: 0 auto;
+}
+@media(max-width: 768px) {
+  .d-flex {
+    display: block !important;
+}
 }

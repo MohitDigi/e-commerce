@@ -4,73 +4,73 @@ import "../Assets/item.css";
 const SubCards = () => {
   return (
     <div>
-      <section className="banners mb-25 ">
-        <div className="banner-container">
-          <div class="card text-bg-dark custom-banners">
+      <section class="banners w-auto d-flex flex-wrap">
+        <div class=" me-4 my-3">
+          <div
+            class="banner-img wow animate__animated animate__fadeInUp"
+            data-wow-delay="0"
+          >
             <img
               src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-1.png"
-              class="card-img"
-              alt="banner-1"
+              alt=""
             />
-
-            <div class="card-img-overlay">
-              <h4 class="card-title text-black">
-                Everyday Fresh & Clean with Our Products
+            <div class="banner-text">
+              <h4>
+                Everyday Fresh & <br />
+                Clean with Our
+                <br />
+                Products
               </h4>
-
-              <p class="card-text">
-                <a href="shop-grid-right.html" class="btn btn-xs">
-                  Shop Now -{">"}
-                </a>
-              </p>
+              <a href="shop-grid-right.html" class="btn btn-xs btn-success">
+                Shop Now <i class="fi-rs-arrow-small-right"></i>
+              </a>
             </div>
           </div>
-
-          <div class="card text-bg-dark custom-banners">
+        </div>
+        <div class="me-4 my-3">
+          <div
+            class="banner-img wow animate__animated animate__fadeInUp"
+            data-wow-delay=".2s"
+          >
             <img
               src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-2.png"
-              class="card-img"
-              alt="banner-2"
+              alt=""
             />
-
-            <div class="card-img-overlay">
-              <h4 class="card-title text-black">
-                Make your Breakfast Healthy and Easy
+            <div class="banner-text">
+              <h4>
+                Make your Breakfast
+                <br />
+                Healthy and Easy
               </h4>
-
-              <p class="card-text">
-                <a href="shop-grid-right.html" class="btn btn-xs">
-                  Shop Now -{">"}
-                </a>
-              </p>
+              <a href="shop-grid-right.html" class="btn btn-xs btn-success">
+                Shop Now <i class="fi-rs-arrow-small-right"></i>
+              </a>
             </div>
           </div>
-
-          <div class="card text-bg-dark custom-banners">
+        </div>
+        <div class="  me-4 my-3">
+          <div
+            class="banner-img mb-sm-0 wow animate__animated animate__fadeInUp"
+            data-wow-delay=".4s"
+          >
             <img
               src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-3.png"
-              class="card-img"
-              alt="banner-3"
+              alt=""
             />
-
-            <div class="card-img-overlay">
-              <h4 class="card-title text-black">
-                The best Organic Products Online
+            <div class="banner-text">
+              <h4>
+                The best Organic <br />
+                Products Online
               </h4>
-
-              <p class="card-text">
-                <a href="shop-grid-right.html" class="btn btn-xs">
-                  Shop Now -{">"}
-                </a>
-              </p>
+              <a href="shop-grid-right.html" class="btn btn-xs btn-success">
+                Shop Now <i class="fi-rs-arrow-small-right"></i>
+              </a>
             </div>
           </div>
         </div>
       </section>
-
       <div
-        class="section-title style-2 wow animate__ animate__fadeIn animated d-flex justify-content-between"
-        style={{ visibility: "visible", animationName: "fadeIn" }}
+        class="section-title style-2 wow animate__ animate__fadeIn animated d-flex justify-content-between mt-4"
       >
         <h3>Popular Products</h3>
         <ul class="nav  links custom-links-list" id="myTab" role="tablist">
@@ -174,7 +174,7 @@ const SubCards = () => {
           </li>
         </ul>
       </div>
-      <div class="container">
+      <div class="card-container">
         <div class="col">
           <div class="card">
             <a href="shop-product-right.html">

@@ -60,7 +60,7 @@ const Cards = () => {
     <>
       {data.length ? (
         <div className="content">
-          <div className="d-flex justify-content-between">
+          <div className="d-flex justify-content-between align-items-end">
             <div class="title d-flex">
               <h2>Featured Categories</h2>
               <ul class="list-inline nav links">

@@ -1,11 +1,11 @@
-.row{
+/* .row{
     display: flex;
     color: #253D4E;
     flex-wrap: wrap;
 }
 .col {
     flex: 1 0 0%;
-}
+} */
 
 .logo a img{
     margin-bottom: 10px;

@@ -6,6 +6,7 @@
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    margin: 12px 0;
 }
 .header-action-2 .header-action-icon-2 {
     position: relative;
@@ -198,6 +199,7 @@ a, button {
     margin: 5px 0 0 10px;
 }
 
+
 .search-style-2 form {
     width: 100%;
     display: flex;
@@ -212,7 +214,7 @@ a, button {
     /* border: 1px solid #ececec; */
     border-right: none;
     width: 140px;
-    padding: 8px 0;
+    padding: 8px 6px;
     border-radius: 4px 0 0 4px;
     background-color: #fff;
     transition: all .3s ease 0s;
@@ -230,4 +232,5 @@ a, button {
     border: 1px solid #3BB77E;
     background: white;
     color:grey;
+    margin-right: 28px;
 }

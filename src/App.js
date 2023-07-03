@@ -5,11 +5,11 @@ import Navbar from "./components/Navbar";
 import Slider from "./components/Slider";
 import TopHeader from "./components/TopHeader";
 import MiddleBanner from "./components/MiddleBanner";
-import Cart from "./components/Cart";
 import LogoHeader from "./components/LogoHeader";
 import FeatureFooter from "./components/FeatureFooter";
 import Cards from "./components/Cards";
 import SubCards from "./components/SubCards";
+import FeatureCard from "./components/FeatureCard";
 function App() {
   return (
     <div className="App">
@@ -31,8 +31,9 @@ function App() {
         <div>
           <Cards />
         </div>
-        <div>
+        <div className="sub-card">
           <SubCards />
+          {/* <FeatureCard/> */}
         </div>
       </main>
       <footer className="footer">
