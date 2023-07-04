@@ -1,15 +1,15 @@
-.section-padding {
-    padding: 25px 0;
-}
+
 .banner-left-icon {
     position: relative;
     background: #F4F6FA;
     padding: 20px;
     border-radius: 10px;
+    margin: 6px auto;
 }
 .banner-left-icon .banner-icon {
-    max-width: 60px;
+    /* max-width: 60px; */
     margin-right: 20px;
+    padding: 6px;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
@@ -19,3 +19,9 @@
     font-weight: 600;
     margin-bottom: 5px;
 }
+/* @media(max-width: 768px) {
+    .banner-icon {      
+        margin-right: 58px;
+    }
+
+} */

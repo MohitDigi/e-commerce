@@ -3,8 +3,8 @@ import "../Assets/item.css";
 
 const SubCards = () => {
   return (
-    <div>
-      <section class="banners w-auto d-flex flex-wrap">
+    <>
+      <section class="banners w-auto d-flex flex-wrap justify-content-center">
         <div class=" me-4 my-3">
           <div
             class="banner-img wow animate__animated animate__fadeInUp"
@@ -174,8 +174,8 @@ const SubCards = () => {
           </li>
         </ul>
       </div>
-      <div class="card-container">
-        <div class="col">
+      <div class="card-container d-flex flex-wrap justify-content-evenly m-3">
+        
           <div class="card">
             <a href="shop-product-right.html">
               <img
@@ -196,8 +196,8 @@ const SubCards = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div class="col">
+    
+      
           <div class="card">
             <a href="shop-product-right.html">
               <img
@@ -218,8 +218,7 @@ const SubCards = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        
           <div class="card">
             <a href="shop-product-right.html">
               <img
@@ -240,8 +239,7 @@ const SubCards = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div class="col">
+  
           <div class="card">
             <a href="shop-product-right.html">
               <img
@@ -262,8 +260,7 @@ const SubCards = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div class="col">
+        
           <div class="card">
             <a href="shop-product-right.html">
               <img
@@ -284,8 +281,7 @@ const SubCards = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div class="col">
+     
           <div class="card">
             <a href="shop-product-right.html">
               <img
@@ -306,8 +302,7 @@ const SubCards = () => {
               </p>
             </div>
           </div>
-        </div>
-        <div class="col">
+      
           <div class="card">
             <a href="shop-product-right.html">
               <img
@@ -328,9 +323,9 @@ const SubCards = () => {
               </p>
             </div>
           </div>
-        </div>
+        
       </div>
-    </div>
+    </>
   );
 };
 

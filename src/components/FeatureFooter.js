@@ -10,21 +10,19 @@ import icon6 from "../icon/icon-6.svg"
 const FeatureFooter = () => {
   return (
     <>
-    <section class="featured section-padding">
-            <div class="m-3">
-                <div class="row">
-                    <div class="col">
+    <section class="featured my-3 d-flex flex-wrap">
+                   
                         <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay="0">
                             <div class="banner-icon">
-                                <img src={icon1} alt="" />
+                                     <img src={icon1} alt="" />
                             </div>
                             <div class="banner-text">
                                 <h3 class="icon-box-title">Best prices & offers</h3>
                                 <p>Orders $50 or more</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
+                    
+                    
                         <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay=".1s">
                             <div class="banner-icon">
                                 <img src={icon2} alt="" />
@@ -34,8 +32,8 @@ const FeatureFooter = () => {
                                 <p>24/7 amazing services</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
+                    
+                    
                         <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay=".2s">
                             <div class="banner-icon">
                                 <img src={icon3} alt="" />
@@ -45,8 +43,7 @@ const FeatureFooter = () => {
                                 <p>When you sign up</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
+                    
                         <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay=".3s">
                             <div class="banner-icon">
                                 <img src={icon4} alt="" />
@@ -56,8 +53,7 @@ const FeatureFooter = () => {
                                 <p>Mega Discounts</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col">
+                    
                         <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
                             <div class="banner-icon">
                                 <img src={icon5} alt="" />
@@ -67,9 +63,9 @@ const FeatureFooter = () => {
                                 <p>Within 30 days</p>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-1-5 col-md-4 col-12 col-sm-6 d-xl-none">
-                        <div class="banner-left-icon d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
+                    
+                    
+                        <div class="banner-left-icon d-xl-none d-flex align-items-center wow animate__animated animate__fadeInUp" data-wow-delay=".5s">
                             <div class="banner-icon">
                                 <img src={icon6} alt="" />
                             </div>
@@ -78,9 +74,7 @@ const FeatureFooter = () => {
                                 <p>Within 30 days</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
+                  
         </section>
 
     </>

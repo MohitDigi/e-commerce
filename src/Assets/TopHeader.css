@@ -1,5 +1,5 @@
 .top-header {
-  font-size: 14px;
+  font-size: 1rem;
   /* border-bottom: 1px solid #7e7e7e; */
   display: flex;
   justify-content: space-between;
@@ -31,9 +31,15 @@
 }
 
 .top-header .dropdown .dropdown-item {
-  font-size: 14px;
+  font-size: 1rem;
 }
 .top-header .dropdown .dropdown-item img {
   width: 16px;
   margin: 0 4px;
+}
+@media (max-width: 986px) {
+  .top-header{
+
+    display: none;
+  }
 }
