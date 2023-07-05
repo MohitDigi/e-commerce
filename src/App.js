@@ -20,7 +20,7 @@ function App() {
         <Navbar />
       </header>
       <main className="main">
-        <Slider />
+        {/* <Slider /> */}
         <Cards />
         <SubCards />
         {/* <FeatureCard/> */}

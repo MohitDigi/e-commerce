@@ -38,7 +38,7 @@ const Navbar = () => {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
               <li className="nav-item">
                 <a className="nav-link text-center" aria-current="page" href="#" >
-                  <img src={hotIcon}  alt="hot-icon"/>
+                  <img src={hotIcon}  alt="hot-icon" id="hot-icon"/>
                   Deals
                 </a>
               </li>
