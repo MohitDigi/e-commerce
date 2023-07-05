@@ -2,13 +2,30 @@
 .custom {
   font-family: "Quicksand";
   text-align: left;
+  /* overflow: hidden !important; */
+  /* white-space: nowrap !important; */
+  /* text-overflow: ellipsis !important; */
 }
 
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  /* margin-top: 40vh; */
+  /* background: #476ce4; */
+  border-radius: 10px;}
+
+  .carousel-item {
+    /* padding: 5% 15%; */
+    text-align: center;
+
+  }
+
 .custom h1 {
-    font-family: "Quicksand", sans-serif;
-    color: #253d4e;
-    font-weight: 700;
-    line-height: 1.2;
+  font-family: "Quicksand", sans-serif;
+  color: #253d4e;
+  font-weight: 700;
+  line-height: 1.2;
 }
 
 .custom p {
@@ -22,11 +39,11 @@
 
 .news-form input {
   padding: 20px 20px;
-  width: 300px;
+  /* width: 300px; */
 }
 
 .news-form button {
-  width: 150px;
+  /* width: 150px; */
   background-color: #3bb77e;
 }
 #newsletter {
@@ -34,12 +51,12 @@
   color: red;
   }
   
-  .custom {
+  /* .custom {
   font-family: "Quicksand";
   text-align: left;
   left: 100px;
   margin-bottom: 100px;
-  }
+  } */
   
   .custom h1 {
   font-size: 72px;
@@ -50,29 +67,34 @@
   .custom p {
   font-size: 30px;
   }
-  
+/*   
   .news-form {
   display: flex;
-  }
+  } */
   
-  .news-form input {
+  /* .news-form input {
   padding: 20px 20px;
   width: 300px;
-  }
+  } */
   
-  .news-form button {
+  /* .news-form button {
   width: 150px;
   background-color: #3BB77E;
   }
-  
+   */
   .carousel-indicators [data-bs-target] {
   border-top: none;
   border-bottom: none;
   border-radius: 10px;
-  width: 15px;
-  height: 15px;
+  /* width: 15px;
+  height: 15px; */
   }
   
   .carousel-indicators [data-bs-target]:active {
   background: #3BB77E;
+  }
+  .carousel-caption button[type="submit"] {
+    color: #fff;
+    background-color: #3bb77e;
+    border-radius: 50px;
   }

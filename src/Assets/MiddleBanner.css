@@ -1,13 +1,12 @@
-.newsletter .newsletter-inner {
+.newsletter {
   background: url(../image/banner-10.png) no-repeat center;
   background-size: cover;
-  padding-top: 1rem;
-  clear: both;
-  display: table;
   width: 100%;
-  border-radius: 20px;
-  overflow: hidden;
-  /* min-height: 230px; */
+  border-radius: 10px;
+}
+
+.newsletter-content {
+  padding: 8% 4%;
 }
 .newsletter-content h2 {
   font-family: "Quicksand", sans-serif;
@@ -19,29 +18,19 @@
 .newsletter-content p {
   font-size: calc(0.7rem + 0.5vw);
 }
-.newsletter-content {
-  padding: 8% 4%;
-  /* padding-left: 4%; */
-}
+
 .newsletter-image > img {
   width: 100%;
-  padding:0 4%;
+  padding: 0 4%;
 }
-.newsletter-content form input {
-  height: 3rem;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  padding-left: 5%;
-  font-size: 1rem;
+.newsletter-content .input-group {
+  /* height: 3rem; */
+  background-color: #ffffff;
   border-radius: 50px;
 }
 
-.newsletter-content form button[type="submit"] {
-  font-size: 1rem;
-  font-weight: 500;
-  padding:0 1rem;
-  color: #ffffff;
-  border: none;
+.newsletter-content button[type="submit"] {
+  color: #fff;
   background-color: #3bb77e;
+  border-radius: 50px;
 }
-

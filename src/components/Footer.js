@@ -19,7 +19,7 @@ const Footer = () => {
   return (
     <>
       <section class="section-padding footer-mid">
-        <div class="">
+        
           <div class="row">
             <div class="col">
               <div
@@ -195,7 +195,6 @@ const Footer = () => {
               <img class="" src={paymentIcon} alt="" />
             </div>
           </div>
-        </div>
       </section>
       <div class=" pb-30 wow animate__animated animate__fadeInUp" data-wow-delay="0">
             <div class="row align-items-center">

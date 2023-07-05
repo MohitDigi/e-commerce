@@ -3,56 +3,35 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 245px;
-  width: 245px;
-  /* margin-left: 100px; */
-  z-index: 99;
+  z-index: 10;
   overflow: hidden;
 }
 
-.card:hover .hover-img {
-  display: inline;
-}
-
-.card-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  align-items: center;
-  margin-top: 20px;
-}
-
-.card-img-top {
-  height: 245px;
-  width: 245px !important;
-  margin: 0 auto;
-}
-.card-title{
-
-  font-weight: bolder;
-}
-.card-text {
-  cursor: pointer;
-}
-
-.card-text:hover {
-  color: #3bb77e;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  flex-wrap: wrap;
-  border: 1px solid #ececec;
-  border-radius: 15px;
-}
-
 .card:hover {
-  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.05);
   border: 1px solid #3bb77e;
 }
-
+ .card-img:hover{ 
+  transition: all .4s ease-in-out;
+  transform : scale(1.05);
+}
+.card{
+  padding: 3%;
+  cursor: pointer;
+}
+.card-title{
+  font-weight: bolder;
+}
+.card-title:hover {
+  color: #3bb77e;
+}
+.card:hover {
+  border: 1px solid #3bb77e;
+  box-shadow: 0px 0px 5px white;
+  transition: all .8s ease-in-out
+}
+.product-card{
+  margin-bottom: 1rem;
+}
 .custom-links-list button {
   color: #444;
   font-weight: 700;
@@ -68,76 +47,4 @@
 
 .custom-links-list button:active {
   color: #3bb77e;
-}
-
-/* .section-title h3 {
-  font-weight: 900;
-  font-size: 30px;
-} */
-
-.custom-banners a {
-  padding: 7px 8px 7px 12px;
-
-  border: 1px solid #3bb77e;
-
-  background-color: #3bb77e;
-
-  color: #fff;
-
-  font-size: 12px;
-
-  text-transform: none;
-
-  display: -webkit-inline-box;
-
-  display: -ms-inline-flexbox;
-
-  display: inline-flex;
-
-  -ms-flex-wrap: wrap;
-
-  flex-wrap: wrap;
-
-  line-height: 1.3;
-}
-
-.custom-banners a:hover {
-  background: #d29531;
-
-  color: #fff;
-}
-
-.custom-banners h4 {
-  font-weight: 700;
-  margin-bottom: 15px;
-
-  font-size: 24px;
-  color: #253d4e !important;
-}
-
-.banner-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.banner-img img {
-  width: auto;
-  max-width: 400px;
-}
-.banner-img .banner-text {
-  position: absolute;
-  top: 50%;
-  z-index: 2;
-  transform: translateY(-50%);
-  padding: 0 5%;
-}
-.card-img-overlay {
-  top: 20%;
-  left: 10%;
-  align-items: center;
-}
-
-.custom-banners {
-  display: flex;
-  /* margin: 12px; */
 }

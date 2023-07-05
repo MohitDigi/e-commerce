@@ -1,18 +1,16 @@
-.mapped-content h6 {
-  font-weight: 700;
-}
 
 .mapped-content {
-  border: 1px solid white;
+  /* border: 1px solid white; */
   border-radius: 8px;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
+  min-width: 100px;
   text-align: center;
   background: #acd6c2;
 }
 
 .mapped-content:hover {
   border: 1px solid #acd6c2;
-  border-radius: 8px;
+  /* border-radius: 8px; */
 }
 
 .mapped-content h6:hover {
@@ -21,9 +19,10 @@
 
 .custom-btn-ctrl button {
   border-radius: 20px;
+  padding: 4px;
   border: none;
-  width: 40px;
-  height: 40px;
+  /* width: 40px;
+  height: 40px; */
 }
 
 .custom-btn-ctrl button:hover {
@@ -32,11 +31,11 @@
 
 .title .nav-link {
     /* margin-top: 6px; */
+    /* text-align:end; */
     background: none;
-    font-size: 16px;
     color: #253D4E;
     font-weight: 700;
-    align-items: flex-end;
+    /* align-items: flex-end; */
 }
 
 .title .nav-link:hover {

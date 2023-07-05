@@ -1,15 +1,16 @@
 
 .banner-left-icon {
-    position: relative;
+    /* position: relative; */
     background: #F4F6FA;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 6px auto;
+    /* padding: 20px;
+    border-radius: 10px; */
+    text-align: center;
+    margin: 0 auto;
 }
 .banner-left-icon .banner-icon {
     /* max-width: 60px; */
-    margin-right: 20px;
-    padding: 6px;
+    /* margin-right: 20px;
+    padding: 6px; */
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }

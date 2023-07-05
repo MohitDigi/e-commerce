@@ -10,42 +10,25 @@ import FeatureFooter from "./components/FeatureFooter";
 import Cards from "./components/Cards";
 import SubCards from "./components/SubCards";
 import FeatureCard from "./components/FeatureCard";
+// import Card from "./components/Card";
 function App() {
   return (
-    <div className="App">
+    <div className="container">
       <header>
-        <div className="head">
-          <TopHeader />
-        </div>
-        <div>
-          <LogoHeader />
-        </div>
-        <div>
-          <Navbar />
-        </div>
+        <TopHeader />
+        <LogoHeader />
+        <Navbar />
       </header>
-      <main className="main my-4">
-        <div className="slider my-4">
-          <Slider />
-        </div>
-        <div>
-          <Cards />
-        </div>
-        <div className="sub-card">
-          <SubCards />
-          {/* <FeatureCard/> */}
-        </div>
+      <main className="main">
+        <Slider />
+        <Cards />
+        <SubCards />
+        {/* <FeatureCard/> */}
       </main>
       <footer className="footer">
-        <div>
-          <MiddleBanner />
-        </div>
-        <div>
-          <FeatureFooter />
-        </div>
-        <div>
-          <Footer />
-        </div>
+        <MiddleBanner />
+        <FeatureFooter />
+        <Footer />
       </footer>
     </div>
   );

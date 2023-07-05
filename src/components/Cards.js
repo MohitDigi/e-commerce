@@ -1,7 +1,6 @@
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-// import { left, right } from "./images";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import "../Assets/Cards.css";
@@ -18,7 +17,7 @@ const Cards = () => {
     infinite: true,
     autoplay: true,
     speed: 1000,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 4000,
     cssEase: "linear",
     responsive: [
       {
@@ -58,8 +57,6 @@ const Cards = () => {
 
   return (
     <>
-      {data.length ? (
-        <div className="content">
           <div className="d-flex justify-content-between align-items-end">
             <div class="title d-flex">
               <h2>Featured Categories</h2>
@@ -105,10 +102,7 @@ const Cards = () => {
               </div>
             ))}
           </Slider>
-        </div>
-      ) : (
-        <></>
-      )}
+        
     </>
   );
 };

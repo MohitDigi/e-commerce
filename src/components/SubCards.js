@@ -1,13 +1,14 @@
 import React from "react";
 import "../Assets/item.css";
+import RatingComp from "./Rating";
 
 const SubCards = () => {
   return (
     <>
-      <section class="banners w-auto d-flex flex-wrap justify-content-center">
-        <div class=" me-4 my-3">
+      <div className="row gx-4 ">
+        <div class=" col col-md-4 col-sm-6 col-xs-12">
           <div
-            class="banner-img wow animate__animated animate__fadeInUp"
+            class="banner-img animate__animated animate__fadeInUp"
             data-wow-delay="0"
           >
             <img
@@ -27,7 +28,7 @@ const SubCards = () => {
             </div>
           </div>
         </div>
-        <div class="me-4 my-3">
+        <div class=" col col-md-4 col-sm-6 col-xs-12">
           <div
             class="banner-img wow animate__animated animate__fadeInUp"
             data-wow-delay=".2s"
@@ -48,7 +49,7 @@ const SubCards = () => {
             </div>
           </div>
         </div>
-        <div class="  me-4 my-3">
+        <div class=" col col-md-4 col-sm-6 col-xs-12">
           <div
             class="banner-img mb-sm-0 wow animate__animated animate__fadeInUp"
             data-wow-delay=".4s"
@@ -68,10 +69,8 @@ const SubCards = () => {
             </div>
           </div>
         </div>
-      </section>
-      <div
-        class="section-title style-2 wow animate__ animate__fadeIn animated d-flex justify-content-between mt-4"
-      >
+      </div>
+      <div class=" animate__ animate__fadeIn animated d-flex justify-content-between">
         <h3>Popular Products</h3>
         <ul class="nav  links custom-links-list" id="myTab" role="tablist">
           <li class="nav-item" role="presentation">
@@ -174,12 +173,12 @@ const SubCards = () => {
           </li>
         </ul>
       </div>
-      <div class="card-container d-flex flex-wrap justify-content-evenly m-3">
-        
+      <div class="row gx-4 gy-5 product-card">
+        <div className="col-md-3 col-sm-4 col-xs-6">
           <div class="card">
             <a href="shop-product-right.html">
               <img
-                class="default-img card-img-top"
+                className="card-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg"
                 alt=""
               />
@@ -190,18 +189,27 @@ const SubCards = () => {
               />
             </a>
             <div class="card-body">
-              <p class="card-title">Snack</p>
-              <p class="card-text">
-                Seeds of Change Organic Quinoa, Brown, & Red Rice
+              <div>hodo Foods</div>
+              <p class="card-title">
+                Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
+              <RatingComp />
+              <p class="card-text">
+                By <span className="text-success">NestFood</span>
+              </p>
+              <div className="d-flex justify-content-between">
+                <p className="text-success fs-5">$54.85</p>
+                <button className="btn btn-success">Add</button>
+              </div>
             </div>
           </div>
-    
-      
+        </div>
+
+        <div className="col-md-3 col-sm-4 col-xs-6">
           <div class="card">
             <a href="shop-product-right.html">
               <img
-                class="default-img card-img-top"
+                className="card-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg"
                 alt=""
               />
@@ -212,17 +220,26 @@ const SubCards = () => {
               />
             </a>
             <div class="card-body">
-              <p class="card-title">Snack</p>
-              <p class="card-text">
-                Seeds of Change Organic Quinoa, Brown, & Red Rice
+              <div>hodo Foods</div>
+              <p class="card-title">
+                Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
+              <RatingComp />
+              <p class="card-text">
+                By <span className="text-success">NestFood</span>
+              </p>
+              <div className="d-flex justify-content-between">
+                <p className="text-success fs-5">$54.85</p>
+                <button className="btn btn-success">Add</button>
+              </div>
             </div>
           </div>
-        
+        </div>
+        <div className="col-md-3 col-sm-4 col-xs-6">
           <div class="card">
             <a href="shop-product-right.html">
               <img
-                class="default-img card-img-top"
+                className="card-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg"
                 alt=""
               />
@@ -233,17 +250,26 @@ const SubCards = () => {
               />
             </a>
             <div class="card-body">
-              <p class="card-title">Snack</p>
-              <p class="card-text">
-                Seeds of Change Organic Quinoa, Brown, & Red Rice
+              <div>hodo Foods</div>
+              <p class="card-title">
+                Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
+              <RatingComp />
+              <p class="card-text">
+                By <span className="text-success">NestFood</span>
+              </p>
+              <div className="d-flex justify-content-between">
+                <p className="text-success fs-5">$54.85</p>
+                <button className="btn btn-success">Add</button>
+              </div>
             </div>
           </div>
-  
+        </div>
+        <div className="col-md-3 col-sm-4 col-xs-6">
           <div class="card">
             <a href="shop-product-right.html">
               <img
-                class="default-img card-img-top"
+                className="card-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg"
                 alt=""
               />
@@ -254,17 +280,26 @@ const SubCards = () => {
               />
             </a>
             <div class="card-body">
-              <p class="card-title">Snack</p>
-              <p class="card-text">
-                Seeds of Change Organic Quinoa, Brown, & Red Rice
+              <div>hodo Foods</div>
+              <p class="card-title">
+                Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
+              <RatingComp />
+              <p class="card-text">
+                By <span className="text-success">NestFood</span>
+              </p>
+              <div className="d-flex justify-content-between">
+                <p className="text-success fs-5">$54.85</p>
+                <button className="btn btn-success">Add</button>
+              </div>
             </div>
           </div>
-        
+        </div>
+        <div className="col-md-3 col-sm-4 col-xs-6">
           <div class="card">
             <a href="shop-product-right.html">
               <img
-                class="default-img card-img-top"
+                className="card-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg"
                 alt=""
               />
@@ -275,17 +310,26 @@ const SubCards = () => {
               />
             </a>
             <div class="card-body">
-              <p class="card-title">Snack</p>
-              <p class="card-text">
-                Seeds of Change Organic Quinoa, Brown, & Red Rice
+              <div>hodo Foods</div>
+              <p class="card-title">
+                Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
+              <RatingComp />
+              <p class="card-text">
+                By <span className="text-success">NestFood</span>
+              </p>
+              <div className="d-flex justify-content-between">
+                <p className="text-success fs-5">$54.85</p>
+                <button className="btn btn-success">Add</button>
+              </div>
             </div>
           </div>
-     
+        </div>
+        <div className="col-md-3 col-sm-4 col-xs-6">
           <div class="card">
             <a href="shop-product-right.html">
               <img
-                class="default-img card-img-top"
+                className="card-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg"
                 alt=""
               />
@@ -296,17 +340,26 @@ const SubCards = () => {
               />
             </a>
             <div class="card-body">
-              <p class="card-title">Snack</p>
-              <p class="card-text">
-                Seeds of Change Organic Quinoa, Brown, & Red Rice
+              <div>hodo Foods</div>
+              <p class="card-title">
+                Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
+              <RatingComp />
+              <p class="card-text">
+                By <span className="text-success">NestFood</span>
+              </p>
+              <div className="d-flex justify-content-between">
+                <p className="text-success fs-5">$54.85</p>
+                <button className="btn btn-success">Add</button>
+              </div>
             </div>
           </div>
-      
+        </div>
+        <div className="col-md-3 col-sm-4 col-xs-6">
           <div class="card">
             <a href="shop-product-right.html">
               <img
-                class="default-img card-img-top"
+                className="card-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-1.jpg"
                 alt=""
               />
@@ -317,13 +370,21 @@ const SubCards = () => {
               />
             </a>
             <div class="card-body">
-              <p class="card-title">Snack</p>
-              <p class="card-text">
-                Seeds of Change Organic Quinoa, Brown, & Red Rice
+              <div>hodo Foods</div>
+              <p class="card-title">
+                Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
+              <RatingComp />
+              <p class="card-text">
+                By <span className="text-success">NestFood</span>
+              </p>
+              <div className="d-flex justify-content-between">
+                <p className="text-success fs-5">$54.85</p>
+                <button className="btn btn-success">Add</button>
+              </div>
             </div>
           </div>
-        
+        </div>
       </div>
     </>
   );

@@ -6,7 +6,7 @@ import ruIcon from "../icon/flag-ru.png"
 const TopHeader = () => {
   return (
     <>
-      <div className="row align-item-center top-header ">
+      <div className=" align-item-center top-header ">
       <div className="header-info w-auto">
         <ul className="nav nav-pills">
          
