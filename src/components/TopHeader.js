@@ -1,57 +1,35 @@
 import React from "react";
 import "../Assets/TopHeader.css";
-import frIcon from "../icon/flag-fr.png"
-import dtIcon from "../icon/flag-dt.png"
-import ruIcon from "../icon/flag-ru.png"
+import frIcon from "../icon/flag-fr.png";
+import dtIcon from "../icon/flag-dt.png";
+import ruIcon from "../icon/flag-ru.png";
 const TopHeader = () => {
   return (
     <>
-      <div className=" align-item-center top-header ">
-      <div className="header-info w-auto">
-        <ul className="nav nav-pills">
-         
-
-          <li className="nav-item">
-            <a className="nav-link" href="/">
-              About Us
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link" href="/">
-              My Account
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/">
-              Wishlist
-            </a>
-          </li>
-
-          <li className="nav-item">
-            <a className="nav-link" href="/">
-              Order Tracking
-            </a>
-          </li>
+      <div className="top-header d-flex align-items-center justify-content-between px-3 py-2 border-b-[1px] border-[#ececec] text-secondaryText">
+        <ul className="d-flex gap-2 list-none" style={{ marginBottom: 0 }}>
+          <li className="text-md">About Us</li>
+          <div style={{ borderRight: "2px solid #ececec" }} />
+          <li className="text-md">My Account</li>
+          <div style={{ borderRight: "2px solid #ececec" }} />
+          <li className="text-md">Wishlist</li>
+          <div style={{ borderRight: "2px solid #ececec" }} />
+          <li className="text-md">Order Tracking</li>
         </ul>
 
-          </div>
-        <div className="nav align-item-center w-auto">
-          <li className="nav-item" id="banner">
-            <a className="nav-link" href="/">
-            100% Secure delivery without contacting the courier
-            </a>
-          </li>
+        <div className="text-sm">
+          Supper Value Deals - Save more with coupons
         </div>
 
-        <ul className="nav nav-pills w-auto">
-          <li className="nav-item">
-            <a className="nav-link d-flex" href="/">
+        <div className="d-flex gap-3">
+          <div>
+            Need help? Call Us:
+            <span style={{ color: "#3BB77E", fontWeight: 600 }}>
               {" "}
-              Need help? Call Us:<p> + 1800 900</p>
-            </a>
-          </li>
-
+              + 1800 900
+            </span>
+          </div>
+          <div style={{ borderRight: "2px solid #ececec" }} />
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
@@ -66,27 +44,31 @@ const TopHeader = () => {
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src={frIcon} alt="flag-fr" />
+                  <img
+                    src={frIcon}
+                    alt="flag-fr"
+                    style={{ width: "20px", marginRight: "6px" }}
+                  />
                   Francias
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src={dtIcon} alt="flag-dt" />
+                  <img src={dtIcon} alt="flag-dt" style={{ width: "20px", marginRight: "6px" }}/>
                   Deutchs
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src={ruIcon} alt="flag-ru" />
+                  <img src={ruIcon} alt="flag-ru" style={{ width: "20px", marginRight: "6px" }}/>
                   Pусский
                 </a>
               </li>
             </ul>
           </li>
-
+          <div style={{ borderRight: "2px solid #ececec" }} />
           <li className="nav-item dropdown">
             <a
               className="nav-link dropdown-toggle"
@@ -101,28 +83,27 @@ const TopHeader = () => {
             <ul className="dropdown-menu">
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src={frIcon} alt="flag-fr" />
+                  <img src={frIcon} alt="flag-fr" style={{ width: "20px", marginRight: "6px" }}/>
                   INR
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src={dtIcon} alt="flag-dt" />
+                  <img src={dtIcon} alt="flag-dt" style={{ width: "20px", marginRight: "6px" }}/>
                   MBP
                 </a>
               </li>
 
               <li>
                 <a className="dropdown-item" href="/">
-                  <img src={ruIcon} alt="flag-ru" />
+                  <img src={ruIcon} alt="flag-ru" style={{ width: "20px", marginRight: "6px" }}/>
                   EU
                 </a>
               </li>
             </ul>
           </li>
-        </ul>
-       
+        </div>
       </div>
     </>
   );

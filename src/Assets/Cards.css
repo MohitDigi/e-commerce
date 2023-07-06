@@ -54,8 +54,8 @@
 .slick-slide img {
   margin: 0 auto;
 }
-@media(max-width: 768px) {
+/* @media(max-width: 768px) {
   .d-flex {
     display: block !important;
 }
-}
+} */

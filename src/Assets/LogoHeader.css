@@ -1,12 +1,14 @@
-.header-style-1 .header-middle-ptb-1 {
-    padding: 30px 0;
+.logo-header{
+    border:1px solid  #ececec;
 }
+
 .header-wrap {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
     margin: 12px 0;
+    border-bottom: 2px solid #ececec;
 }
 .header-action-2 .header-action-icon-2 {
     position: relative;
@@ -19,13 +21,6 @@
     max-width: 700px;
     background-color: #fff;
 }
-.logo.logo-width-1 {
-    margin-right: 90px;
-}
-.logo a {
-    display: block;
-}
-
 
 a, button {
     text-decoration: none;
@@ -64,31 +59,27 @@ a, button {
     width: 140px;
     padding: 3px 35px 3px 20px;
     border-radius: 4px 0 0 4px;
-    background-color: #fff;
-    -webkit-transition: all .3s ease 0s;
     transition: all .3s ease 0s;
-    /* -moz-appearance: none;
-    -webkit-appearance: none; */
     position: relative;
 }
-.header-style-1 .select2-container {
+/* .header-style-1 .select2-container {
     max-width: unset;
     min-width: 150px;
-}
-.header-action-2 .header-action-icon-2 {
+} */
+/* .header-action-2 .header-action-icon-2 {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     padding: 0 10px;
-}
-.header-style-1 .search-location .select2-container {
+} */
+/* .header-style-1 .search-location .select2-container {
     max-width: unset;
     min-width: 158px;
     max-width: 158px;
     margin-right: 30px;
-}
-.header-action-2 .header-action-icon-2 > a {
+} */
+/* .header-action-2 .header-action-icon-2 > a {
     font-size: 30px;
     color: #333;
     line-height: 1;
@@ -98,42 +89,28 @@ a, button {
 .header-action-2 .header-action-icon-2 > a span {
     font-size: 14px;
     color: #7E7E7E;
-}
-.header-style-1 .select2-container--default .select2-selection--single .select2-selection__rendered {
-    height: 50px;
-    line-height: 50px;
-    position: relative;
-}
+} */
 
-.select2-container--default .select2-selection--single .select2-selection__rendered {
-    line-height: 50px;
-    font-size: 14px;
-    padding: 0;
-    font-family: "Quicksand", sans-serif;
-    color: #253D4E;
-}
-.header-style-1 .search-style-2 form input {
+/* .header-style-1 .search-style-2 form input {
     max-width: 600px;
     border-width: 0px;
     border-radius: 0 5px 5px 0;
     margin-left: 20px;
     background-color: #fff;
     border: none;
-}
-.search-style-2 form input {
     width: 100%;
     max-width: 683px;
     font-size: 14px;
     border: transparent;
-    /* background-image: url(../imgs/theme/icons/search.png); */
+    background-image: url(../imgs/theme/icons/search.png);
     background-repeat: no-repeat;
     background-position: center right;
     padding-left: 8px;
     height: 50px;
     line-height: 50px;
     font-size: 14px;
-   
-}
+} */
+/* 
 .header-action-2 {
     display: flex;
     -webkit-box-align: center;
@@ -143,12 +120,6 @@ a, button {
 
 .search-style-2 {
     width: 40%;
-}
-.header-action-2 {
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
 }
 .header-action-2 .header-action-icon-2 {
     position: relative;
@@ -160,10 +131,9 @@ a, button {
     max-width: 25px;
 }
 
-.header-action-2 .header-action-icon-2 > a span.pro-count.blue {
-    background-color: #3BB77E;
-}
+
 .header-action-2 .header-action-icon-2 > a span.pro-count {
+    background-color: #3BB77E;
     position: absolute;
     right: -11px;
     top: -5px;
@@ -211,7 +181,7 @@ a, button {
     font-size: 16px;
     font-weight: 500;
     min-height: 50px;
-    /* border: 1px solid #ececec; */
+    border: 1px solid #ececec;
     border-right: none;
     width: 140px;
     padding: 8px 6px;
@@ -219,8 +189,8 @@ a, button {
     background-color: #fff;
     transition: all .3s ease 0s;
     position: relative;
-}
-.header-style-1 .search-location .select2-container--default .select2-selection--single .select2-selection__rendered {
+} */
+/* .header-style-1 .search-location .select2-container--default .select2-selection--single .select2-selection__rendered {
     height: 40px;
     line-height: 35px;
     position: relative;
@@ -233,4 +203,10 @@ a, button {
     background: white;
     color:grey;
     margin-right: 28px;
-}
+} */
+@media (max-width: 986px) {
+    .logo-header{
+  
+      display: none !important;
+    }
+  }

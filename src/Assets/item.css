@@ -48,3 +48,9 @@
 .custom-links-list button:active {
   color: #3bb77e;
 }
+
+@media(max-width: 768px) {
+  .popular-products{
+    display: block !important;
+}
+}

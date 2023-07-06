@@ -9,7 +9,7 @@ const Navbar = () => {
   const [flag, setFlag] = useState(false);
   return (
     <>
-      <nav className="navbar navbar-expand-lg sticky">
+      <nav className="sticky-top navbar navbar-expand-lg sticky">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <button
@@ -37,7 +37,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
               <li className="nav-item">
-                <a className="nav-link text-center" aria-current="page" href="#" >
+                <a className="nav-link " aria-current="page" href="#" >
                   <img src={hotIcon}  alt="hot-icon" id="hot-icon"/>
                   Deals
                 </a>
