@@ -58,26 +58,26 @@ const Cards = () => {
   return (
     <>
           <div className="d-flex justify-content-between align-items-end">
-            <div class="title d-flex">
+            <div className="title d-flex">
               <h2>Featured Categories</h2>
-              <ul class="list-inline nav links">
-                <li class="list-inline-item nav-item">
-                  <a class="nav-link" href="shop-grid-right.html">
+              <ul className="list-inline nav links">
+                <li className="list-inline-item nav-item">
+                  <a className="nav-link" href="shop-grid-right.html">
                     Cake &amp; Milk
                   </a>
                 </li>
-                <li class="list-inline-item nav-item">
-                  <a class="nav-link" href="shop-grid-right.html">
+                <li className="list-inline-item nav-item">
+                  <a className="nav-link" href="shop-grid-right.html">
                     Coffes &amp; Teas
                   </a>
                 </li>
-                <li class="list-inline-item nav-item">
-                  <a class="nav-link active" href="shop-grid-right.html">
+                <li className="list-inline-item nav-item">
+                  <a className="nav-link active" href="shop-grid-right.html">
                     Pet Foods
                   </a>
                 </li>
-                <li class="list-inline-item nav-item">
-                  <a class="nav-link" href="shop-grid-right.html">
+                <li className="list-inline-item nav-item">
+                  <a className="nav-link" href="shop-grid-right.html">
                     Vegetables
                   </a>
                 </li>

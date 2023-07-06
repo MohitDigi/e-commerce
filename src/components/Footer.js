@@ -18,23 +18,23 @@ import yt from "../icon/icon-youtube-white.svg"
 const Footer = () => {
   return (
     <>
-      <section class="section-padding footer-mid">
+      <section className="section-padding footer-mid">
         
-          <div class="row">
-            <div class="col">
+          <div className="row">
+            <div className="col">
               <div
-                class="widget-about animate__animated animate__fadeInUp"
+                className="widget-about animate__animated animate__fadeInUp"
                 data-wow-delay="0"
               >
-                <div class="logo">
-                  <a href="index.html" class="">
+                <div className="logo">
+                  <a href="index.html" className="">
                     <img src={logo} alt="logo" />
                   </a>
-                  <p class="text-heading">
+                  <p className="text-heading">
                     Awesome grocery store website template
                   </p>
                 </div>
-                <ul class="contact-info">
+                <ul className="contact-info">
                   <li>
                     <img src={contactIcon} alt="" />
                     <strong>Address: </strong>
@@ -52,7 +52,7 @@ const Footer = () => {
                     <img src={emailIcon} alt="" />
                     <strong>Email:</strong>
                     <span>
-                      <a href="" class="__email__">
+                      <a href="" className="__email__">
                       sale@Nest.com
                       </a>
                     </span>
@@ -65,9 +65,9 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div class="footer-link-widget col wow animate__animated animate__fadeInUp">
-              <h4 class=" widget-title">Company</h4>
-              <ul class="footer-list ">
+            <div className="footer-link-widget col wow animate__animated animate__fadeInUp">
+              <h4 className=" widget-title">Company</h4>
+              <ul className="footer-list ">
                 <li>
                   <a href="#">About Us</a>
                 </li>
@@ -92,10 +92,10 @@ const Footer = () => {
               </ul>
             </div>
             <div
-              class="footer-link-widget col wow animate__animated animate__fadeInUp "
+              className="footer-link-widget col wow animate__animated animate__fadeInUp "
             >
-              <h4 class="widget-title">Account</h4>
-              <ul class="footer-list ">
+              <h4 className="widget-title">Account</h4>
+              <ul className="footer-list ">
                 <li>
                   <a href="#">Sign In</a>
                 </li>
@@ -120,11 +120,11 @@ const Footer = () => {
               </ul>
             </div>
             <div
-              class="footer-link-widget col wow animate__animated animate__fadeInUp"
+              className="footer-link-widget col wow animate__animated animate__fadeInUp"
               data-wow-delay=".3s"
             >
-              <h4 class="widget-title">Corporate</h4>
-              <ul class="footer-list">
+              <h4 className="widget-title">Corporate</h4>
+              <ul className="footer-list">
                 <li>
                   <a href="#">Become a Vendor</a>
                 </li>
@@ -149,11 +149,11 @@ const Footer = () => {
               </ul>
             </div>
             <div
-              class="footer-link-widget col wow animate__animated animate__fadeInUp"
+              className="footer-link-widget col wow animate__animated animate__fadeInUp"
               data-wow-delay=".4s"
             >
-              <h4 class="widget-title">Popular</h4>
-              <ul class="footer-list">
+              <h4 className="widget-title">Popular</h4>
+              <ul className="footer-list">
                 <li>
                   <a href="#">Milk & Flavoured Milk</a>
                 </li>
@@ -178,44 +178,44 @@ const Footer = () => {
               </ul>
             </div>
             <div
-              class="footer-link-widget widget-install-app col wow animate__animated animate__fadeInUp"
+              className="footer-link-widget widget-install-app col wow animate__animated animate__fadeInUp"
               data-wow-delay=".5s"
             >
-              <h4 class="widget-title">Install App</h4>
-              <p class="">From App Store or Google Play</p>
-              <div class="download-app">
-                <a href="#" class="hover-up">
-                  <img class="active" src={appStore} alt="" />
+              <h4 className="widget-title">Install App</h4>
+              <p className="">From App Store or Google Play</p>
+              <div className="download-app">
+                <a href="#" className="hover-up">
+                  <img className="active" src={appStore} alt="" />
                 </a>
-                <a href="#" class="hover-up ">
+                <a href="#" className="hover-up ">
                   <img src={playStore} alt="" />
                 </a>
               </div>
-              <p class="mb-20">Secured Payment Gateways</p>
-              <img class="" src={paymentIcon} alt="" />
+              <p className="mb-20">Secured Payment Gateways</p>
+              <img className="" src={paymentIcon} alt="" />
             </div>
           </div>
       </section>
-      <div class=" pb-30 wow animate__animated animate__fadeInUp" data-wow-delay="0">
-            <div class="row align-items-center">
-                <div class="">
-                    <div class="footer-bottom"></div>
+      <div className=" pb-30 wow animate__animated animate__fadeInUp" data-wow-delay="0">
+            <div className="row align-items-center">
+                <div className="">
+                    <div className="footer-bottom"></div>
                 </div>
-                <div class="col">
-                    <p>&copy; 2022, <strong class="text-brand">Nest</strong> - HTML Ecommerce Template <br />All rights reserved</p>
+                <div className="col">
+                    <p>&copy; 2022, <strong className="text-brand">Nest</strong> - HTML Ecommerce Template <br />All rights reserved</p>
                 </div>
-                <div class="col text-center d-none d-xl-block">
-                    <div class="hotline d-lg-inline-flex mr-30">
+                <div className="col text-center d-none d-xl-block">
+                    <div className="hotline d-lg-inline-flex mr-30">
                         <img src={phoneIcon} alt="hotline" />
                         <p>1900 - 6666<span>Working 8:00 - 22:00</span></p>
                     </div>
-                    <div class="hotline d-lg-inline-flex">
+                    <div className="hotline d-lg-inline-flex">
                         <img src={phoneIcon} alt="hotline" />
                         <p>1900 - 8888<span>24/7 Support Center</span></p>
                     </div>
                 </div>
-                <div class="col text-end d-none d-md-block">
-                    <div class="mobile-social-icon">
+                <div className="col text-end d-none d-md-block">
+                    <div className="mobile-social-icon">
                         <h6>Follow Us</h6>
                         <a href="#"><img src={fb} alt="" /></a>
                         <a href="#"><img src={pt} alt="" /></a>
@@ -223,7 +223,7 @@ const Footer = () => {
                         <a href="#"><img src={ig} alt="" /></a>
                         <a href="#"><img src={yt} alt="" /></a>
                     </div>
-                    <p class="font-sm">Up to 15% discount on your first subscribe</p>
+                    <p className="font-sm">Up to 15% discount on your first subscribe</p>
                 </div>
             </div>
         </div>

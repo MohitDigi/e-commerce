@@ -9,18 +9,18 @@ import wishlistIcon from "../icon/icon-heart.svg"
 const LogoHeader = () => {
   return (
     <>
-      <div class="header-middle header-middle-ptb-1 d-none d-lg-block">
-        <div class="">
-          <div class="header-wrap">
-            <div class="logo logo-width-1">
+      <div className="header-middle header-middle-ptb-1 d-none d-lg-block">
+        <div className="">
+          <div className="header-wrap">
+            <div className="logo logo-width-1">
               <a href="index.html">
                 <img src={logo} alt="logo" />
               </a>
             </div>
-            <div class="header-right">
-              <div class="search-style-2">
+            <div className="header-right">
+              <div className="search-style-2">
                 <form action="#">
-                  <select class="select-active">
+                  <select className="select-active">
                     <option>All Categories</option>
                     <option>Milks and Dairies</option>
                     <option>Wines & Alcohol</option>
@@ -36,11 +36,11 @@ const LogoHeader = () => {
                   <input type="text" placeholder="Search for items..." />
                 </form>
               </div>
-              <div class="header-action-right">
-                <div class="header-action-2">
-                  <div class="search-location">
+              <div className="header-action-right">
+                <div className="header-action-2">
+                  <div className="search-location">
                     <form action="#">
-                      <select class="select-active">
+                      <select className="select-active">
                         <option>Your Location</option>
                         <option>Alabama</option>
                         <option>Alaska</option>
@@ -58,88 +58,88 @@ const LogoHeader = () => {
                       </select>
                     </form>
                   </div>
-                  <div class="header-action-icon-2">
+                  <div className="header-action-icon-2">
                     <a href="shop-compare.html">
                       <img
-                        class="svgInject"
+                        className="svgInject"
                         alt="Nest"
                         src={compareIcon}
                       />
-                      <span class="pro-count blue">3</span>
+                      <span className="pro-count blue">3</span>
                     </a>
                     <a href="shop-compare.html">
-                      <span class="lable ml-0">Compare</span>
+                      <span className="lable ml-0">Compare</span>
                     </a>
                   </div>
-                  <div class="header-action-icon-2">
+                  <div className="header-action-icon-2">
                     <a href="shop-wishlist.html">
                       <img
-                        class="svgInject"
+                        className="svgInject"
                         alt="Nest"
                         src={wishlistIcon}
                       />
-                      <span class="pro-count blue">6</span>
+                      <span className="pro-count blue">6</span>
                     </a>
                     <a href="shop-wishlist.html">
-                      <span class="lable">Wishlist</span>
+                      <span className="lable">Wishlist</span>
                     </a>
                   </div>
-                  <div class="header-action-icon-2">
-                    <a class="mini-cart-icon" href="shop-cart.html">
+                  <div className="header-action-icon-2">
+                    <a className="mini-cart-icon" href="shop-cart.html">
                       <img
                         alt="Nest"
                         src={cartIcon}
                       />
-                      <span class="pro-count blue">2</span>
+                      <span className="pro-count blue">2</span>
                     </a>
                     <a href="">
-                      <span class="lable">Cart</span>
+                      <span className="lable">Cart</span>
                     </a>
                   
                   </div>
-                  <div class="header-action-icon-2">
+                  <div className="header-action-icon-2">
                     <a href="page-account.html">
                       <img
-                        class="svgInject"
+                        className="svgInject"
                         alt="Nest"
                         src={userIcon}
                       />
                     </a>
                     <a href="page-account.html">
-                      <span class="lable ml-0">Account</span>
+                      <span className="lable ml-0">Account</span>
                     </a>
-                    {/* <div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
+                    {/* <div className="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
                       <ul>
                         <li>
                           <a href="page-account.html">
-                            <i class="fi fi-rs-user mr-10"></i>My Account
+                            <i className="fi fi-rs-user mr-10"></i>My Account
                           </a>
                         </li>
                         <li>
                           <a href="page-account.html">
-                            <i class="fi fi-rs-location-alt mr-10"></i>Order
+                            <i className="fi fi-rs-location-alt mr-10"></i>Order
                             Tracking
                           </a>
                         </li>
                         <li>
                           <a href="page-account.html">
-                            <i class="fi fi-rs-label mr-10"></i>My Voucher
+                            <i className="fi fi-rs-label mr-10"></i>My Voucher
                           </a>
                         </li>
                         <li>
                           <a href="shop-wishlist.html">
-                            <i class="fi fi-rs-heart mr-10"></i>My Wishlist
+                            <i className="fi fi-rs-heart mr-10"></i>My Wishlist
                           </a>
                         </li>
                         <li>
                           <a href="page-account.html">
-                            <i class="fi fi-rs-settings-sliders mr-10"></i>
+                            <i className="fi fi-rs-settings-sliders mr-10"></i>
                             Setting
                           </a>
                         </li>
                         <li>
                           <a href="page-login.html">
-                            <i class="fi fi-rs-sign-out mr-10"></i>Sign out
+                            <i className="fi fi-rs-sign-out mr-10"></i>Sign out
                           </a>
                         </li>
                       </ul>

@@ -9,7 +9,7 @@ import LogoHeader from "./components/LogoHeader";
 import FeatureFooter from "./components/FeatureFooter";
 import Cards from "./components/Cards";
 import SubCards from "./components/SubCards";
-import FeatureCard from "./components/FeatureCard";
+// import FeatureCard from "./components/FeatureCard";
 // import Card from "./components/Card";
 function App() {
   return (

@@ -6,76 +6,76 @@ const SubCards = () => {
   return (
     <>
       <div className="row gx-4 ">
-        <div class=" col col-md-4 col-sm-6 col-xs-12">
+        <div className=" col col-md-4 col-sm-6 col-xs-12">
           <div
-            class="banner-img animate__animated animate__fadeInUp"
+            className="banner-img animate__animated animate__fadeInUp"
             data-wow-delay="0"
           >
             <img
               src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-1.png"
               alt=""
             />
-            <div class="banner-text">
+            <div className="banner-text">
               <h4>
                 Everyday Fresh & <br />
                 Clean with Our
                 <br />
                 Products
               </h4>
-              <a href="shop-grid-right.html" class="btn btn-xs btn-success">
-                Shop Now <i class="fi-rs-arrow-small-right"></i>
+              <a href="shop-grid-right.html" className="btn btn-xs btn-success">
+                Shop Now <i className="fi-rs-arrow-small-right"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class=" col col-md-4 col-sm-6 col-xs-12">
+        <div className=" col col-md-4 col-sm-6 col-xs-12">
           <div
-            class="banner-img wow animate__animated animate__fadeInUp"
+            className="banner-img wow animate__animated animate__fadeInUp"
             data-wow-delay=".2s"
           >
             <img
               src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-2.png"
               alt=""
             />
-            <div class="banner-text">
+            <div className="banner-text">
               <h4>
                 Make your Breakfast
                 <br />
                 Healthy and Easy
               </h4>
-              <a href="shop-grid-right.html" class="btn btn-xs btn-success">
-                Shop Now <i class="fi-rs-arrow-small-right"></i>
+              <a href="shop-grid-right.html" className="btn btn-xs btn-success">
+                Shop Now <i className="fi-rs-arrow-small-right"></i>
               </a>
             </div>
           </div>
         </div>
-        <div class=" col col-md-4 col-sm-6 col-xs-12">
+        <div className=" col col-md-4 col-sm-6 col-xs-12">
           <div
-            class="banner-img mb-sm-0 wow animate__animated animate__fadeInUp"
+            className="banner-img mb-sm-0 wow animate__animated animate__fadeInUp"
             data-wow-delay=".4s"
           >
             <img
               src="http://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-3.png"
               alt=""
             />
-            <div class="banner-text">
+            <div className="banner-text">
               <h4>
                 The best Organic <br />
                 Products Online
               </h4>
-              <a href="shop-grid-right.html" class="btn btn-xs btn-success">
-                Shop Now <i class="fi-rs-arrow-small-right"></i>
+              <a href="shop-grid-right.html" className="btn btn-xs btn-success">
+                Shop Now <i className="fi-rs-arrow-small-right"></i>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class=" animate__ animate__fadeIn animated d-flex justify-content-between">
+      <div className=" animate__ animate__fadeIn animated d-flex justify-content-between">
         <h3>Popular Products</h3>
-        <ul class="nav  links custom-links-list" id="myTab" role="tablist">
-          <li class="nav-item" role="presentation">
+        <ul className="nav  links custom-links-list" id="myTab" role="tablist">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link active"
+              className="nav-link active"
               id="nav-tab-one"
               data-bs-toggle="tab"
               data-bs-target="#tab-one"
@@ -87,9 +87,9 @@ const SubCards = () => {
               All
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="nav-tab-two"
               data-bs-toggle="tab"
               data-bs-target="#tab-two"
@@ -101,9 +101,9 @@ const SubCards = () => {
               Milks &amp; Dairies
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="nav-tab-three"
               data-bs-toggle="tab"
               data-bs-target="#tab-three"
@@ -115,9 +115,9 @@ const SubCards = () => {
               Coffes &amp; Teas
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="nav-tab-four"
               data-bs-toggle="tab"
               data-bs-target="#tab-four"
@@ -129,9 +129,9 @@ const SubCards = () => {
               Pet Foods
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="nav-tab-five"
               data-bs-toggle="tab"
               data-bs-target="#tab-five"
@@ -143,9 +143,9 @@ const SubCards = () => {
               Meats
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="nav-tab-six"
               data-bs-toggle="tab"
               data-bs-target="#tab-six"
@@ -157,9 +157,9 @@ const SubCards = () => {
               Vegetables
             </button>
           </li>
-          <li class="nav-item" role="presentation">
+          <li className="nav-item" role="presentation">
             <button
-              class="nav-link"
+              className="nav-link"
               id="nav-tab-seven"
               data-bs-toggle="tab"
               data-bs-target="#tab-seven"
@@ -173,9 +173,9 @@ const SubCards = () => {
           </li>
         </ul>
       </div>
-      <div class="row gx-4 gy-5 product-card">
+      <div className="row gx-4 gy-5 product-card">
         <div className="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
+          <div className="card">
             <a href="shop-product-right.html">
               <img
                 className="card-img"
@@ -183,18 +183,18 @@ const SubCards = () => {
                 alt=""
               />
               <img
-                class="hover-img"
+                className="hover-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg"
                 alt=""
               />
             </a>
-            <div class="card-body">
+            <div className="card-body">
               <div>hodo Foods</div>
-              <p class="card-title">
+              <p className="card-title">
                 Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
               <RatingComp />
-              <p class="card-text">
+              <p className="card-text">
                 By <span className="text-success">NestFood</span>
               </p>
               <div className="d-flex justify-content-between">
@@ -206,7 +206,7 @@ const SubCards = () => {
         </div>
 
         <div className="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
+          <div className="card">
             <a href="shop-product-right.html">
               <img
                 className="card-img"
@@ -214,18 +214,18 @@ const SubCards = () => {
                 alt=""
               />
               <img
-                class="hover-img"
+                className="hover-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg"
                 alt=""
               />
             </a>
-            <div class="card-body">
+            <div className="card-body">
               <div>hodo Foods</div>
-              <p class="card-title">
+              <p className="card-title">
                 Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
               <RatingComp />
-              <p class="card-text">
+              <p className="card-text">
                 By <span className="text-success">NestFood</span>
               </p>
               <div className="d-flex justify-content-between">
@@ -236,7 +236,7 @@ const SubCards = () => {
           </div>
         </div>
         <div className="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
+          <div className="card">
             <a href="shop-product-right.html">
               <img
                 className="card-img"
@@ -244,18 +244,18 @@ const SubCards = () => {
                 alt=""
               />
               <img
-                class="hover-img"
+                className="hover-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg"
                 alt=""
               />
             </a>
-            <div class="card-body">
+            <div className="card-body">
               <div>hodo Foods</div>
-              <p class="card-title">
+              <p className="card-title">
                 Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
               <RatingComp />
-              <p class="card-text">
+              <p className="card-text">
                 By <span className="text-success">NestFood</span>
               </p>
               <div className="d-flex justify-content-between">
@@ -266,7 +266,7 @@ const SubCards = () => {
           </div>
         </div>
         <div className="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
+          <div className="card">
             <a href="shop-product-right.html">
               <img
                 className="card-img"
@@ -274,18 +274,18 @@ const SubCards = () => {
                 alt=""
               />
               <img
-                class="hover-img"
+                className="hover-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg"
                 alt=""
               />
             </a>
-            <div class="card-body">
+            <div className="card-body">
               <div>hodo Foods</div>
-              <p class="card-title">
+              <p className="card-title">
                 Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
               <RatingComp />
-              <p class="card-text">
+              <p className="card-text">
                 By <span className="text-success">NestFood</span>
               </p>
               <div className="d-flex justify-content-between">
@@ -296,7 +296,7 @@ const SubCards = () => {
           </div>
         </div>
         <div className="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
+          <div className="card">
             <a href="shop-product-right.html">
               <img
                 className="card-img"
@@ -304,18 +304,18 @@ const SubCards = () => {
                 alt=""
               />
               <img
-                class="hover-img"
+                className="hover-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg"
                 alt=""
               />
             </a>
-            <div class="card-body">
+            <div className="card-body">
               <div>hodo Foods</div>
-              <p class="card-title">
+              <p className="card-title">
                 Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
               <RatingComp />
-              <p class="card-text">
+              <p className="card-text">
                 By <span className="text-success">NestFood</span>
               </p>
               <div className="d-flex justify-content-between">
@@ -326,7 +326,7 @@ const SubCards = () => {
           </div>
         </div>
         <div className="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
+          <div className="card">
             <a href="shop-product-right.html">
               <img
                 className="card-img"
@@ -334,18 +334,18 @@ const SubCards = () => {
                 alt=""
               />
               <img
-                class="hover-img"
+                className="hover-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg"
                 alt=""
               />
             </a>
-            <div class="card-body">
+            <div className="card-body">
               <div>hodo Foods</div>
-              <p class="card-title">
+              <p className="card-title">
                 Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
               <RatingComp />
-              <p class="card-text">
+              <p className="card-text">
                 By <span className="text-success">NestFood</span>
               </p>
               <div className="d-flex justify-content-between">
@@ -356,7 +356,7 @@ const SubCards = () => {
           </div>
         </div>
         <div className="col-md-3 col-sm-4 col-xs-6">
-          <div class="card">
+          <div className="card">
             <a href="shop-product-right.html">
               <img
                 className="card-img"
@@ -364,18 +364,18 @@ const SubCards = () => {
                 alt=""
               />
               <img
-                class="hover-img"
+                className="hover-img"
                 src="http://wp.alithemes.com/html/nest/demo/assets/imgs/shop/product-1-2.jpg"
                 alt=""
               />
             </a>
-            <div class="card-body">
+            <div className="card-body">
               <div>hodo Foods</div>
-              <p class="card-title">
+              <p className="card-title">
                 Canada Dry Ginger Ale – 2 L Bottle - 200ml - 400g
               </p>
               <RatingComp />
-              <p class="card-text">
+              <p className="card-text">
                 By <span className="text-success">NestFood</span>
               </p>
               <div className="d-flex justify-content-between">
