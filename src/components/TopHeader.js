@@ -7,7 +7,7 @@ const TopHeader = () => {
   return (
     <>
       <div className="top-header d-flex align-items-center justify-content-between px-3 py-2 border-b-[1px] border-[#ececec] text-secondaryText">
-        <ul className="d-flex gap-2 list-none" style={{ marginBottom: 0 }}>
+        <ul className="d-flex align-items-center gap-2 list-none" style={{ marginBottom: 0 }}>
           <li className="text-md">About Us</li>
           <div style={{ borderRight: "2px solid #ececec" }} />
           <li className="text-md">My Account</li>
@@ -21,7 +21,7 @@ const TopHeader = () => {
           Supper Value Deals - Save more with coupons
         </div>
 
-        <div className="d-flex gap-3">
+        <div className="d-flex align-items-center gap-3">
           <div>
             Need help? Call Us:
             <span style={{ color: "#3BB77E", fontWeight: 600 }}>

@@ -7,7 +7,7 @@
   color: #000;
 }
 
-@media (max-width: 986px) {
+@media (max-width: 991px) {
   .top-header {
     display: none !important;
   }
