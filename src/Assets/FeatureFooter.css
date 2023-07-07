@@ -1,28 +1,23 @@
 
 .banner-left-icon {
-    /* position: relative; */
     background: #F4F6FA;
-    /* padding: 20px;
-    border-radius: 10px; */
-    text-align: center;
-    margin: 0 auto;
+    padding: 0;
 }
 .banner-left-icon .banner-icon {
-    /* max-width: 60px; */
-    /* margin-right: 20px;
-    padding: 6px; */
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 .banner-left-icon .banner-text h3 {
     color: #242424;
-    font-size: 18px;
+    font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 5px;
 }
-/* @media(max-width: 768px) {
-    .banner-icon {      
-        margin-right: 58px;
+@media(max-width: 575px) {
+    .banner-icon {     
+        font-size: small; 
     }
-
-} */
+    .banner-left-icon{
+        display: block;
+        width: 100%;
+    }
+}

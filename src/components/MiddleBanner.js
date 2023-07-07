@@ -5,7 +5,7 @@ import "../Assets/MiddleBanner.css";
 const MiddleBanner = () => {
   return (
     <>
-      <section className="newsletter row animate__animated animate__fadeIn">
+      <section className="newsletter d-flex align-items-end animate__animated animate__fadeIn">
         <div className="col-5 newsletter-content">
           <h2>
             Stay home & get your daily <br />
@@ -29,18 +29,9 @@ const MiddleBanner = () => {
               </button>
             </div>
           </div>
-          {/* <form className="form-subcriber d-flex ">
-            <input
-              className="border-0 rounded-start-pill"
-              type="email"
-              placeholder="Your emaill address"
-            />
-            <button className="btn btn-success" type="submit">
-              Subscribe
-            </button>
-          </form> */}
+
         </div>
-        <div className="newsletter-image col">
+        <div className="newsletter-image col" align="end">
           <img src={newsLetter} alt="newsletter" />
         </div>
       </section>
