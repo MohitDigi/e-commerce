@@ -32,10 +32,10 @@
   border-radius: 50px;
 }
 @media (min-width:605px) and (max-width: 768px) {
-  .newsletter-content h2,
+  /* .newsletter-content,
   p {
     font-size:x-large;
-  }
+  } */
   /* .newsletter-content .input-group {
    
   } */
