@@ -1,0 +1,22 @@
+.banner-img img{
+    width: 100%;
+}
+.banner-img .banner-text {
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+}
+.btn.btn-xs, .button.btn-xs {
+    padding: 7px 8px 7px 12px;
+    font-size: 12px;
+    text-transform: none;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    line-height: 1.3;
+}

@@ -6,7 +6,7 @@ import MajorCard from "./MajorCard";
 const SubCards = () => {
   return (
     <>
-      {/* <MajorCard /> */}
+      <MajorCard />
 
       <div className="popular-products d-flex justify-content-between animate__ animate__fadeIn">
         <h3>Popular Products</h3>
