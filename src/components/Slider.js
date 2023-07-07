@@ -6,7 +6,7 @@ import sliderImage2 from "../image/Slider-2.png";
 const Slider = () => {
   return (
     <>
-      <div id="carouselExampleIndicators" className="container carousel slide">
+      <div id="carouselExampleIndicators" className=" carousel slide">
         <div className="carousel-indicators">
           <button
             type="button"

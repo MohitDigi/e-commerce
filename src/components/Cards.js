@@ -94,7 +94,7 @@ const Cards = () => {
           </div>
           <Slider ref={setSliderRef} {...sliderSettings}>
             {data.map((card, index) => (
-              <div key={index} className="mapped-content" style={{background :`${card.bg}`}}>
+              <div key={index} className={`mapped-content ${card.bg}`} style={{background :`${card.bg}`}}>
               {console.log(`background : ${card.bg}`)}
                 <img src={card.imageSrc} alt={card.title} />
                 <h6>{card.title}</h6>

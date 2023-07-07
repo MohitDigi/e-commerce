@@ -18,8 +18,8 @@ const HomePage = () => {
         <Navbar />
       </header>
       <main className="main container-fluid">
-        {/* <Slider /> */}
-        {/* <Cards /> */}
+        <Slider />
+        <Cards />
         <SubCards />
         {/* <FeatureCard/> */}
       </main>

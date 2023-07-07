@@ -6,11 +6,21 @@
   min-width: 100px;
   text-align: center;
   background: #acd6c2;
+  
+}
+/* background color classes */
+.peach{
+  background-color: #FEEFEA;
+}
+.lightgreen{
+background-color:#ECFFEC ;
+}
+.lime{
+background-color: #FFFCEB;
 }
 
 .mapped-content:hover {
   border: 1px solid #acd6c2;
-  /* border-radius: 8px; */
 }
 
 .mapped-content h6:hover {
@@ -30,12 +40,9 @@
 }
 
 .title .nav-link {
-    /* margin-top: 6px; */
-    /* text-align:end; */
     background: none;
     color: #253D4E;
     font-weight: 700;
-    /* align-items: flex-end; */
 }
 
 .title .nav-link:hover {
@@ -54,8 +61,3 @@
 .slick-slide img {
   margin: 0 auto;
 }
-/* @media(max-width: 768px) {
-  .d-flex {
-    display: block !important;
-}
-} */

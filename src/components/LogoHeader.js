@@ -83,34 +83,34 @@ const LogoHeader = () => {
             </div>
           <div className="d-flex justify-content-between mx-3 pe-3">
             
-            <div className="header-action-icon-2 position-relative pe-3">
+            <div className=" position-relative pe-3">
               <img className="svgInject" alt="Nest" src={compareIcon} />
               {/* <span className="pro-count blue">3</span> */}
-              <span class="position-absolute top-0 start-30 translate-middle badge rounded-pill bg-success">
+              <span class="header-action-icon position-absolute top-0 start-30 translate-middle badge rounded-pill ">
                 3
                 <span class="visually-hidden">unread messages</span>
               </span>
               <span className="ms-2">Compare</span>
             </div>
-            <div className="header-action-icon-2 position-relative pe-3">
+            <div className="position-relative pe-3">
               <img className="svgInject" alt="Nest" src={wishlistIcon} />
               {/* <span className="pro-count blue">6</span> */}
-              <span class="position-absolute top-0 start-30 translate-middle badge rounded-pill bg-success">
+              <span class="header-action-icon position-absolute top-0 start-30 translate-middle badge rounded-pill ">
                 6
                 <span class="visually-hidden">unread messages</span>
               </span>
               <span className="ms-2">Wishlist</span>
             </div>
-            <div className="header-action-icon-2 position-relative pe-3">
+            <div className="position-relative pe-3">
               <img alt="Nest" src={cartIcon} />
               {/* <span className="pro-count blue">2</span> */}
-              <span class="position-absolute top-0 start-30 translate-middle badge rounded-pill bg-success">
+              <span class="header-action-icon position-absolute top-0 start-30 translate-middle badge rounded-pill ">
                 2
                 <span class="visually-hidden">unread messages</span>
               </span>
               <span className="ms-2">Cart</span>
             </div>
-            <div className="header-action-icon-2">
+            <div className="-">
               <img className="svgInject" alt="Nest" src={userIcon} />
               <span className="lable ms-2">Account</span>
               {/* <div className="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">

@@ -22,3 +22,14 @@ nav{
     margin-bottom: 5px;
     margin-right: 4px;
 }
+.dropdown-item:hover{
+    color: #3BB77E !important;
+}
+.hotline > p{
+    font-size: x-large;
+    font-weight: 700;
+    text-align: center;
+}
+.hotline img{
+    color: #253D4E;
+}
