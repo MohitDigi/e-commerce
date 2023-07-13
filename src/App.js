@@ -4,6 +4,7 @@ import "./App.css";
 import HomePage from "./pages/HomePage";
 import ViewProduct from "./pages/ViewProduct";
 import Cart from "./components/Cart";
+import LoginPage from "./components/LoginPage";
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         </Routes>
       </BrowserRouter> */}
           {/* <ViewProduct /> */}
-          <Cart/>
+          {/* <Cart/> */}
+          <LoginPage/>
     </>
   );
 }
