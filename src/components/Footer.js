@@ -20,8 +20,8 @@ const Footer = () => {
     <>
       <section className="section-padding footer-mid">
         
-          <div className="row">
-            <div className="col">
+          <div className="row gx-3">
+            <div className="col-md-2 ">
               <div
                 className="widget-about animate__animated animate__fadeInUp"
                 data-wow-delay="0"
@@ -65,7 +65,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className="footer-link-widget col wow animate__animated animate__fadeInUp">
+            <div className="footer-link-widget col-md-2  wow animate__animated animate__fadeInUp">
               <h4 className=" widget-title">Company</h4>
               <ul className="footer-list ">
                 <li>
@@ -91,8 +91,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div
-              className="footer-link-widget col wow animate__animated animate__fadeInUp "
+            <div className="footer-link-widget col-md-2  wow animate__animated animate__fadeInUp "
             >
               <h4 className="widget-title">Account</h4>
               <ul className="footer-list ">
@@ -119,8 +118,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div
-              className="footer-link-widget col wow animate__animated animate__fadeInUp"
+            <div className="footer-link-widget col-md-2  wow animate__animated animate__fadeInUp"
               data-wow-delay=".3s"
             >
               <h4 className="widget-title">Corporate</h4>
@@ -148,8 +146,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div
-              className="footer-link-widget col wow animate__animated animate__fadeInUp"
+            <div className="footer-link-widget col-md-2  wow animate__animated animate__fadeInUp"
               data-wow-delay=".4s"
             >
               <h4 className="widget-title">Popular</h4>
@@ -177,8 +174,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div
-              className="footer-link-widget widget-install-app col wow animate__animated animate__fadeInUp"
+            <div className="footer-link-widget widget-install-app col-md-2  wow animate__animated animate__fadeInUp"
               data-wow-delay=".5s"
             >
               <h4 className="widget-title">Install App</h4>

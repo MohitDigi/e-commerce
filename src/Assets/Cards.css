@@ -1,6 +1,6 @@
 
 .mapped-content {
-  /* border: 1px solid white; */
+  border: 1px solid white;
   border-radius: 8px;
   /* padding: 10px 10px; */
   min-width: 100px;
@@ -15,25 +15,23 @@
 .lightgreen{
 background-color:#ECFFEC ;
 }
-.lime{
+.limeyellow{
 background-color: #FFFCEB;
 }
 
-.mapped-content:hover {
-  border: 1px solid #acd6c2;
+.mapped-content img{
+  max-width: 80px;
 }
-
 .mapped-content h6:hover {
   color: #3bb77e;
 }
 
-.custom-btn-ctrl button {
+/* .custom-btn-ctrl button {
   border-radius: 20px;
   padding: 4px;
   border: none;
-  /* width: 40px;
-  height: 40px; */
-}
+ 
+} */
 
 .custom-btn-ctrl button:hover {
   background-color: #3bb77e;
@@ -49,15 +47,4 @@ background-color: #FFFCEB;
   color:#3bb77e;
 }
 
-.slick-initialized .slick-slide {
-  margin-left: 12px;
-  margin-right: 12px;
-  margin-top: 10px;
-}
 
-.slick-list {
-  height: 250px;
-}
-.slick-slide img {
-  margin: 0 auto;
-}

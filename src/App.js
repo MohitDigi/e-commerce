@@ -1,14 +1,21 @@
 import "animate.css";
 import "./App.css";
-
-
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-// import FeatureCard from "./components/FeatureCard";
-// import Card from "./components/Card";
+import ViewProduct from "./pages/ViewProduct";
+import Cart from "./components/Cart";
+
 function App() {
   return (
     <>
-    <HomePage/>
+      {/* <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/view-product" element={<ViewProduct />} />
+        </Routes>
+      </BrowserRouter> */}
+          {/* <ViewProduct /> */}
+          <Cart/>
     </>
   );
 }

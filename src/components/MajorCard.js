@@ -3,8 +3,8 @@ import "../Assets/MajorCard.css";
 const MajorCard = () => {
   return (
     <>
-      <div className="row gx-4 gy-4">
-        <div className=" col col-md-4 col-sm-6 col-xs-12">
+      <div className="row gx-4 gy-4 py-4">
+        <div className="col-md-4 col-sm-6 col-xs-12">
           <div
             className="banner-img rounded animate__animated animate__fadeInUp"
             data-wow-delay="0"
@@ -21,7 +21,7 @@ const MajorCard = () => {
                 <br />
                 Products
               </h4>
-              <a href="shop-grid-right.html" className="btn btn-xs btn-success">
+              <a href="shop-grid-right.html" className="btn btn-xs btn-success px-4 py-2">
                 Shop Now
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ const MajorCard = () => {
             </div>
           </div>
         </div>
-        <div className=" col col-md-4 col-sm-6 col-xs-12">
+        <div className="col-md-4 col-sm-6 col-xs-12">
           <div
             className="banner-img wow animate__animated animate__fadeInUp"
             data-wow-delay=".2s"
@@ -75,7 +75,7 @@ const MajorCard = () => {
             </div>
           </div>
         </div>
-        <div className="col col-md-4 col-sm-6 col-xs-12">
+        <div className="col-md-4 col-sm-6 col-xs-12">
           <div
             className="banner-img mb-sm-0 wow animate__animated animate__fadeInUp"
             data-wow-delay=".4s"

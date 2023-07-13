@@ -31,21 +31,13 @@
   background-color: #3bb77e;
   border-radius: 50px;
 }
-@media (min-width:605px) and (max-width: 768px) {
-  /* .newsletter-content,
-  p {
-    font-size:x-large;
-  } */
-  /* .newsletter-content .input-group {
-   
-  } */
-}
+
 @media (max-width: 605px) {
   .newsletter {
     display: block !important;
   }
   .newsletter-content h2,
-  p {
+  .newsletter-content p {
     text-align: center;
   }
   .newsletter-content .input-group {

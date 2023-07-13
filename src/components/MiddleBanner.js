@@ -6,7 +6,7 @@ const MiddleBanner = () => {
   return (
     <>
       <section className="newsletter d-flex align-items-end animate__animated animate__fadeIn">
-        <div className=" newsletter-content col">
+        <div className="newsletter-content col">
           <h2>
             Stay home & get your daily <br />
             needs from our shop

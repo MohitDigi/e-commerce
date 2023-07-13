@@ -1,13 +1,15 @@
 import React from 'react'
-import Footer from "../components/Footer";
+import TopHeader from "../components/TopHeader";
+import LogoHeader from "../components/LogoHeader";
 import Navbar from "../components/Navbar";
 import Slider from "../components/Slider";
-import TopHeader from "../components/TopHeader";
-import MiddleBanner from "../components/MiddleBanner";
-import LogoHeader from "../components/LogoHeader";
-import FeatureFooter from "../components/FeatureFooter";
-import Cards from "../components/Cards";
+import MajorCard from '../components/MajorCard';
 import SubCards from "../components/SubCards";
+import Cards from "../components/Cards";
+import MiddleBanner from "../components/MiddleBanner";
+import FeatureFooter from "../components/FeatureFooter";
+import Footer from "../components/Footer";
+
 const HomePage = () => {
   return (
     <>
@@ -20,6 +22,7 @@ const HomePage = () => {
       <main className="main container-fluid">
         <Slider />
         <Cards />
+        <MajorCard/>
         <SubCards />
         {/* <FeatureCard/> */}
       </main>

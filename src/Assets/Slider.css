@@ -1,100 +1,59 @@
-
-.custom {
-  font-family: "Quicksand";
-  text-align: left;
-  /* overflow: hidden !important; */
-  /* white-space: nowrap !important; */
-  /* text-overflow: ellipsis !important; */
+.slider-image {
+  width: 100%;
+}
+.slider-caption {
+  position: absolute;
+  top: 18%;
+  left: 7%;
+  overflow: hidden;
+  border-radius: 10px;
 }
 
-.carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  /* margin-top: 40vh; */
-  /* background: #476ce4; */
-  border-radius: 10px;}
-
-  .carousel-item {
-    /* padding: 5% 15%; */
-    text-align: center;
-
-  }
-
-.custom h1 {
+.slider-caption h1 {
   font-family: "Quicksand", sans-serif;
   color: #253d4e;
   font-weight: 700;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #253d4e;
   line-height: 1.2;
 }
 
-.custom p {
-  font-size: 30px;
+.slider-caption p {
+  font-size: 1.5rem;
 }
 
-.news-form {
-  display: flex;
-  flex-wrap: wrap;
+.slider-caption .input-group {
+  border-radius: 50px;
 }
 
-.news-form input {
-  padding: 20px 20px;
-  /* width: 300px; */
-}
-
-.news-form button {
-  /* width: 150px; */
+.subscribe-btn button[type="submit"] {
+  color: #fff;
   background-color: #3bb77e;
+  border-radius: 50px;
 }
-#newsletter {
-  display: flex;
-  color: red;
+@media (max-width: 768px) {
+  .slider-caption h1 {
+    font-size: 1.5rem;
   }
-  
-  /* .custom {
-  font-family: "Quicksand";
-  text-align: left;
-  left: 100px;
-  margin-bottom: 100px;
-  } */
-  
-  .custom h1 {
-  font-size: 72px;
-  font-weight: 700;
-  color: #253d4e;
+  .slider-caption p {
+    font-size: 1rem;
   }
-  
-  .custom p {
-  font-size: 30px;
+  .slider-caption .input-group {
+    /* padding: 0.3rem; */
+    margin: auto;
   }
-/*   
-  .news-form {
-  display: flex;
-  } */
-  
-  /* .news-form input {
-  padding: 20px 20px;
-  width: 300px;
-  } */
-  
-  /* .news-form button {
-  width: 150px;
-  background-color: #3BB77E;
+}
+@media (max-width:425){
+  .slider-caption h1 {
+    font-size: 0.4rem;
   }
-   */
-  .carousel-indicators [data-bs-target] {
-  border-top: none;
-  border-bottom: none;
-  border-radius: 10px;
-  /* width: 15px;
-  height: 15px; */
+  .slider-caption p {
+    font-size: 0.2rem;
   }
-  
-  .carousel-indicators [data-bs-target]:active {
-  background: #3BB77E;
+  .slider-caption .input-group {
+    /* padding: 0.3rem; */
+    margin: auto;
+    display: none;
   }
-  .carousel-caption button[type="submit"] {
-    color: #fff;
-    background-color: #3bb77e;
-    border-radius: 50px;
-  }
+}

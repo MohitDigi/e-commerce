@@ -12,7 +12,7 @@ const FeatureFooter = () => {
     <>
       <section className="featured my-3 row gx-5 gy-4 justify-content-center">
         <div
-          className="banner-left-icon d-flex justify-content-center align-items-center col col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
+          className="banner-left-icon d-flex align-items-center  col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
           data-wow-delay="0"
         >
           <div className="banner-icon m-2">
@@ -25,7 +25,7 @@ const FeatureFooter = () => {
         </div>
 
         <div
-          className="banner-left-icon d-flex justify-content-center align-items-center col col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
+          className="banner-left-icon d-flex align-items-center  col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 px-2 animate__animated animate__fadeInUp"
           data-wow-delay=".1s"
         >
           <div className="banner-icon m-2">
@@ -38,7 +38,7 @@ const FeatureFooter = () => {
         </div>
 
         <div
-          className="banner-left-icon d-flex justify-content-center align-items-center col col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
+          className="banner-left-icon d-flex align-items-center  col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
           data-wow-delay=".2s"
         >
           <div className="banner-icon m-2">
@@ -51,7 +51,7 @@ const FeatureFooter = () => {
         </div>
 
         <div
-          className="banner-left-icon d-flex justify-content-center align-items-center col col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
+          className="banner-left-icon d-flex align-items-center  col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
           data-wow-delay=".3s"
         >
           <div className="banner-icon m-2">
@@ -64,7 +64,7 @@ const FeatureFooter = () => {
         </div>
 
         <div
-          className="banner-left-icon d-flex justify-content-center align-items-center col col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
+          className="banner-left-icon d-flex  align-items-center  col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
           data-wow-delay=".4s"
         >
           <div className="banner-icon m-2">
@@ -77,7 +77,7 @@ const FeatureFooter = () => {
         </div>
 
         <div
-          className="banner-left-icon d-flex justify-content-center align-items-center d-xl-none d-lg-none col m-2 col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
+          className="banner-left-icon d-flex  align-items-center d-xl-none d-lg-none  m-2 col-lg-2 col-md-4 col-sm-6 col-xs-12 m-2 p-2 animate__animated animate__fadeInUp"
           data-wow-delay=".5s"
         >
           <div className="banner-icon m-2">

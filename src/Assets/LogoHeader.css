@@ -2,9 +2,9 @@
     border:1px solid  #ececec;
 }
 
-.search-location{
+/* .search-location{
     margin-right: 45px;
-}
+} */
 a, button {
     cursor: pointer;
 }
@@ -17,10 +17,17 @@ form select {
     transition: all .3s ease 0s;
     position: relative;
 }
+@media (max-width:1175) {
+    .side-icons{
+        display: none;
+    }
+    
+}
 
 @media (max-width: 991px) {
     .logo-header{
   
       display: none !important;
     }
+    
   }

@@ -3,6 +3,7 @@
 }
 .banner-img .banner-text {
     position: absolute;
+    font-size: 1.2rem;
     top: 50%;
     z-index: 2;
     -webkit-transform: translateY(-50%);
@@ -10,8 +11,9 @@
     padding: 0 50px;
 }
 .btn.btn-xs, .button.btn-xs {
-    padding: 7px 8px 7px 12px;
-    font-size: 12px;
+    /* padding: 7px 8px 7px 12px; */
+
+    font-size: 0.8rem;
     text-transform: none;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
@@ -19,4 +21,8 @@
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     line-height: 1.3;
+}
+
+@media (max-width: 768px) {
+
 }
