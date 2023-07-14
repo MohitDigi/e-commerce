@@ -113,7 +113,7 @@ const Cart = () => {
                       >
                         <div className="detail-extralink">
                           <div className="detail-qty">
-                            <span className="qty-val">1</span>
+                            <input type="number" className="qty-val" value={1} min={1} max={100}/>
                           </div>
                         </div>
                       </td>
@@ -178,9 +178,10 @@ const Cart = () => {
                         className="text-center detail-info"
                         data-title="Stock"
                       >
+                        
                         <div className="detail-extralink">
-                          <div className="detail-qty border radius">
-                            <span className="qty-val">1</span>
+                          <div className="detail-qty">
+                            <input type="number" className="qty-val" value={1} min={1} max={100}/>
                           </div>
                         </div>
                       </td>
@@ -242,9 +243,10 @@ const Cart = () => {
                         className="text-center detail-info"
                         data-title="Stock"
                       >
+                        
                         <div className="detail-extralink">
-                          <div className="detail-qty border radius">
-                            <span className="qty-val">1</span>
+                          <div className="detail-qty">
+                            <input type="number" className="qty-val" value={1} min={1} max={100}/>
                           </div>
                         </div>
                       </td>

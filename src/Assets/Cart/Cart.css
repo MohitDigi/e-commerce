@@ -151,12 +151,13 @@ a:hover {
 .right-container {
   margin-top: 4em;
 }
-.detail-extralink .detail-qty {
+.detail-extralink .detail-qty input {
   border: 2px solid #3bb77e !important;
   font-weight: 700;
   color: #3bb77e;
   border-radius: 5px;
   padding: 8px 4px;
+  text-align: center;
   /* max-width: 90px; */
 }
 @media (max-width: 1200px) {
@@ -204,8 +205,12 @@ a:hover {
   .product-thumbnail img{
     max-width: 275px;
   }
+  .detail-extralink .detail-qty{
+    border: 0;
+    padding: 0;
+  }
   .table-wishlist tbody tr td::before{
-    content: attr(data-title) " ";
+    content: attr(data-title);
     float: left;
     margin-right: 40px;
     font-weight: bold;
