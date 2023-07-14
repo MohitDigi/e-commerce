@@ -1,0 +1,129 @@
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.signup-main-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 2em 0;
+  /* font-size: 20px; */
+}
+.signup-section {
+  padding: 1em;
+}
+.signup-section > h1 {
+  font-size: 3em;
+  font-weight: 700;
+}
+.signup-section > p {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #7e7e7e;
+}
+.signup-form-section > input {
+  display: block;
+  padding: 10px 20px;
+  padding-right: 10em;
+  border-radius: 10px;
+  margin: 20px 0;
+  background: #fff;
+  border: 1px solid #ececec;
+  outline: none;
+  width: 100%;
+}
+.signup-form-footer {
+  display: flex;
+  justify-content: space-between;
+}
+.radio-chk > input {
+  display: block;
+  margin-right: 5px;
+}
+.radio-chk b {
+  margin-left: 4px;
+}
+.chkbox > input {
+  margin-right: 5px;
+}
+.signup-form-footer > a {
+  color: #3bb77e;
+}
+.signup-form-footer > a :hover {
+  color: #fdc040;
+}
+.signup-form-footer {
+  margin-top: 2em;
+}
+.note {
+  margin-top: 2em;
+}
+.signupWith-section {
+  margin-top: 9em;
+}
+.signup-container {
+  padding: 3em;
+  border: 1px solid #ececec;
+
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.signup-container > button {
+  margin-bottom: 20px;
+}
+.fbLogo {
+  background-color: #1877f2;
+  border: #1877f2;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-weight: 700;
+}
+.googleLogo {
+  background-color: #fff;
+  color: #7e7e7e;
+  border: 1px solid #f2f3f4;
+  border-radius: 10px;
+  padding: 15px 25px;
+  margin-right: 0;
+  font-weight: 700;
+}
+.appleLogo {
+  background-color: #000000;
+  border: #000000;
+  color: #fff;
+  border-radius: 10px;
+  padding: 15px 25px;
+  font-weight: 700;
+}
+.signup-btn {
+  color: #fff;
+  background-color: #29a56c !important;
+  border: #253d4e;
+  font-weight: 700;
+  padding: 15px 40px;
+  border-radius: 10px;
+  margin-top: 3em;
+  width: 100%;
+}
+@media (max-width: 992px) {
+  .signupWith-section {
+    display: none;
+  }
+}
+@media (max-width: 476px) {
+  .signup-main-container {
+    display: block;
+  }
+
+  .signup-section > h1 {
+    font-size: 1.8em;
+  }
+  .signup-section > p {
+    font-size: 0.9rem;
+  }
+  .security-section > input {
+    width: 55%;
+  }
+}
