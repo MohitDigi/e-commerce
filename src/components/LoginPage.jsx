@@ -20,7 +20,7 @@ const LoginPage = () => {
             </a>
           </p>
 
-          <div className="form-section">
+          <div className="login-form-section">
             <input type="email" name="" placeholder="Username or Email *" required/>
             <input type="password" name="" placeholder="Your password *" required/>
             <div className="security-section">

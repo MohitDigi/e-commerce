@@ -17,9 +17,9 @@ function App() {
         </Routes>
       </BrowserRouter> */}
           {/* <ViewProduct /> */}
-          <Cart/>
+          {/* <Cart/> */}
           {/* <LoginPage/> */}
-          {/* <Signup/> */}
+          <Signup/>
     </>
   );
 }

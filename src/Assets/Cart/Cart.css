@@ -151,7 +151,7 @@ a:hover {
 .right-container {
   margin-top: 4em;
 }
-.detail-extralink .detail-qty input {
+.detail-extralink .detail-qty > input {
   border: 2px solid #3bb77e !important;
   font-weight: 700;
   color: #3bb77e;
@@ -224,6 +224,7 @@ a:hover {
   }
   .table-wishlist tbody tr td {
     border: none;
+    text-align: center;
   }
   .custom-checkbox {
     display: none;
