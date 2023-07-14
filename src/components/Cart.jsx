@@ -104,7 +104,7 @@ const Cart = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="price" data-title="Price">
+                    <td className="price" data-title="Unit Price">
                       <h4 className="text-body">$2.51 </h4>
                     </td>
                     <td className="text-center detail-info" data-title="Stock">
@@ -114,7 +114,7 @@ const Cart = () => {
                         </div>
                       </div>
                     </td>
-                    <td className="price" data-title="Price">
+                    <td className="price" data-title="SubTotal">
                       <h4 className="text-brand">$2.51 </h4>
                     </td>
                     <td className="action text-center" data-title="Remove">

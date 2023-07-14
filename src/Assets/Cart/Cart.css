@@ -194,6 +194,35 @@ a:hover {
     display: block;
     padding: 0 1em;
   }
+  .table-wishlist{
+    display: flex;
+    justify-content: center;
+  }
+  .table-wishlist > thead {
+    display: none;
+  }
+  .product-thumbnail img{
+    max-width: 275px;
+  }
+  .table-wishlist tbody tr td::before{
+    content: attr(data-title) " ";
+    float: left;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+  .table-wishlist tbody tr {
+    display: flex !important;
+    flex-direction: column;
+    border: 1px solid #ececec;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .table-wishlist tbody tr td {
+    border: none;
+  }
+  .custom-checkbox {
+    display: none;
+  }
 }
 @media (max-width: 375px) {
   .shippng-form {
@@ -234,4 +263,6 @@ a:hover {
   .trash {
     margin-top: 10px;
   }
+
+  
 }
