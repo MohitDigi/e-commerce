@@ -207,7 +207,7 @@ a:hover {
   .table-wishlist tbody tr td::before{
     content: attr(data-title) " ";
     float: left;
-    margin-right: 15px;
+    margin-right: 40px;
     font-weight: bold;
   }
   .table-wishlist tbody tr {
