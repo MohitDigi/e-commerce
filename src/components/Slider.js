@@ -43,7 +43,7 @@ const Slider = () => {
               aria-label="Your emaill address"
               aria-describedby="basic-addon2"
             />
-            <div className="input-group-append subscribe-btn">
+            <div className="input-group-append slider-subscribe-btn">
               <button className="btn text-white py-3 px-5" type="submit">
                 Subscribe
               </button>

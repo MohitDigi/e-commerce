@@ -55,7 +55,7 @@ a:hover {
   border-radius: 0 15px 15px 0;
 }
 
-.btn {
+.cart-btn {
   border-radius: 5px !important;
   color: #fff;
   background-color: #3bb77e;
@@ -65,7 +65,7 @@ a:hover {
   padding: 10px 15px;
   margin: 10px;
 }
-.btn:hover,
+.cart-btn:hover,
 .button:hover {
   color: #fff;
   background-color: #fdc040;
@@ -240,7 +240,7 @@ a:hover {
   .table-wishlist > thead th {
     padding: 5px 10px;
   }
-  .btn {
+  .cart-btn {
     font-size: 12px;
     padding: 12px 10px;
     margin: 0;
@@ -251,7 +251,7 @@ a:hover {
   .right-container {
     margin-top: 2em;
   }
-  .right-container .btn {
+  .right-container .cart-btn {
     margin-top: 10px;
     width: 100%;
   }

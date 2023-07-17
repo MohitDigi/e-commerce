@@ -273,7 +273,7 @@ const Cart = () => {
                 </table>
                 <hr className="divider" />
                 <div className="cart-action">
-                  <a className="btn">
+                  <a className="cart-btn">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"

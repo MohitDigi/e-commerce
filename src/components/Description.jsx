@@ -491,9 +491,9 @@ const Description = () => {
                   </div>
                 </div>
               </div>
-              <div className="banner-img">
+              <div className="desc-banner-img">
                 {/* <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-11.png" alt="banner-11" height={'340px'} /> */}
-                <div className="banner-text">
+                <div className="desc-banner-text">
                   <span>Organic</span>
                   <h4>
                     Save 17% <br />
