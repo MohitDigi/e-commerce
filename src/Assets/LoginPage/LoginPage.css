@@ -92,6 +92,21 @@
         display: none;
     }
 }
-@media (max-width: 481px) {
-    
+@media (max-width: 768px) {
+  .login-section {
+    /* padding: 2em; */
+    width: 100%;
+}
+.login-form-section > input{
+  width: 100%;
+}
+.security-section > input {
+  width: 50%;
+}
+.login-btn{
+  width: 100%;
+}
+}
+@media (max-width:416px) {
+  
 }
