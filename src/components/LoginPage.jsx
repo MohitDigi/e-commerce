@@ -9,7 +9,7 @@ const LoginPage = () => {
   const[pswd,setPswd] = useState("");
   const[code,setCode] = useState("");
 
-  const errorMsg = () => toast.error('please fill all the fields !!!');
+  const errorMsg = () => toast.error('Please fill all the fields !!!');
   const successMsg = () => toast.success('Successfully logged in !!!')
 
   const handleSubmit =() => {
